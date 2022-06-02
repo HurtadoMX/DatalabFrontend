@@ -1,0 +1,176 @@
+.introduccion{
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+.introduccion-container{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.introduccion-primera-parte{
+    display: flex;
+    margin-top: -40px;
+    padding: 110px;
+}
+
+.introduccion-text-negritas{
+    font-weight: 600;
+    color: #040414;
+
+}
+
+.introduccion-hr{
+    margin-left: -10px;
+    margin-right: 10px;
+    height:8vh;
+    width:.1vw;
+    border-width:0;
+    color:#f4511e;
+    background-color:#f4511e;
+}
+
+.introduccion-text-span{
+    color: #f4511e ;
+    font-weight: 700;
+
+}
+
+.introduccion-text-diferencia{
+    color: #040414;
+    font-weight: 700;
+}
+
+.introduccion-primera-parte > img{
+    width: 200px;
+    height: 50px;
+}
+.introduccion-primera-parte>button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 400px;
+}
+
+.introduccion-primera-parte>button>span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.introduccion-primera-parte>button>span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.introduccion-primera-parte>button:hover>span {
+    padding-right: 25px;
+}
+
+.introduccion-primera-parte>button:hover>span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.introduccion-segunda-parte .introduccion-titulo{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.introduccion-segunda-parte .introduccion-titulo > h4{
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+
+}
+.introduccion-segunda-parte .introduccion-titulo > h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.introduccion-text-principal{
+    letter-spacing: 5px;
+}
+
+.introduccion-scroll{
+   width: 50px;
+   height: 50px;
+   margin-top: 70px;
+   margin-left: 520px;
+   margin-bottom: 200px;
+}
+
+.introduccion-scroll > h3{
+    color: #f4511e;
+    font-weight: 400;
+ }
+
+ .introduccion-insights{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+
+    
+ }
+
+ .introduccion-dobleh1{
+     display: flex;
+ }
+
+ .introduccion-items{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-left: 100px;
+     margin-right: 100px;
+     margin-top: 100px;
+ }
+
+ .introduccion-primer-item{
+    max-width: 200px;
+    margin-left: 60px;
+ }
+ .introduccion-primer-item >p{
+     margin-top: 20px;
+   color: #8a7e7b;
+ }
+ .introduccion-primer-item >h3{
+    color: #222230;
+    margin-bottom: 10px;
+  }
+
+ .introduccion-imagen-metodologia{
+     width: 60px;
+     height: 60px;
+     margin-bottom: 15px;
+ }
+
+.introduccion-tercera-parte{
+margin-top: 100px;
+}
+
+@media screen and (max-width:768px ) {
+    .introduccion{
+        flex-direction: column;
+    }
+    .introduccion-primera-parte{
+        display: flex;
+        flex-direction: column;
+    }
+}

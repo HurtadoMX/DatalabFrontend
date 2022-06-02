@@ -1,0 +1,52 @@
+.dataIcons-container{
+    background: #ffff;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dataIcons-group1{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    grid-gap: 220px;
+}
+
+.dataIcons-group2{
+    margin-top: 10px;
+    margin-left: 400px;
+    display: grid;
+    grid-template-columns: 170px 170px;
+    grid-gap: 220px;
+}
+
+.dataIcons-image{
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.item > h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+
+
+.dataIcons-parrafo{
+    margin-top: 45px;
+}
+.dataIcons-parrafo > p{
+    color: gray;
+    font-weight: 600;
+}
+
+.dataIcons-parrafo2{
+}
+.dataIcons-parrafo2 > p{
+    color: gray;
+    font-weight: 600;
+}
