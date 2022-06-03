@@ -84,7 +84,7 @@
 
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:480px) {
     .dataIcons-container2{
         width: 100%;
         background: #ffff;
