@@ -28,8 +28,32 @@ const Servicios = () => {
 
                 <a href="/">Leer más <BsArrowRight className='arrow'/></a>
                 </div>
+             </div>
+
+
+
+        {/* ESTE EL ITEM PARA MODIFICADO PARA LA VERSION MOVIL */}
+        <div className='item1'>
+
+                <div className='item-separados1'>
+
+            <img src={Data_Management} alt="" />
+                <h2><p>DATA</p> MANEGEMENT</h2>
+                </div>
+            <div className='servicios-primer-item1'>
+                <p ><p>Te ayudamos a integrar,</p> estructurar y limpiar tus datos</p>
+                <div className='servicios-item-a'>
+
+                <a href="/">Leer más <BsArrowRight className='arrow'/></a>
+                </div>
             </div>
-            <div className='servicios-segundo-item'>
+        </div>
+
+
+
+
+
+        <div className='servicios-segundo-item'>
                 <img className='servicios-svg2 servicios-text-h2' src={Data_SCIENCE} alt="" />
                 <h2 className=''><p>DATA SCIENCE </p> & ANALYTICS</h2>
                 <p><p>Trabajamos en equipo contigo,</p> para entender tus objetivos</p>
@@ -40,6 +64,27 @@ const Servicios = () => {
         </div>
 
 
+
+        {/* ESTE EL ITEM PARA MODIFICADO PARA LA VERSION MOVIL */}
+        <div className='item2'>
+
+            <div className='item-separados2'>
+
+            <img className='' src={Data_SCIENCE} alt="" />
+                <h2 className=''><p>DATA SCIENCE </p> & ANALYTICS</h2>
+            </div>
+        <div className='servicios-primer-item2'>
+        <p><p>Trabajamos en equipo contigo,</p> para entender tus objetivos</p>
+               <div className='servicios-item-a'>
+
+                <a href="/">Leer más <BsArrowRight className='arrow'/></a>
+               </div>
+            </div>
+
+        </div>
+
+
+
             <div className='servicios-tercer-item'>
                 <img className='servicios-svg3' src={Data_Visualization} alt="" />
                 <h2>DATA VISUALIZATION</h2>
@@ -48,7 +93,25 @@ const Servicios = () => {
 
                 <a href="/">Leer más <BsArrowRight className='arrow'/></a>
                 </div>
+            </div>
 
+
+
+        {/* ESTE EL ITEM PARA MODIFICADO PARA LA VERSION MOVIL */}
+        <div className='item3'>
+
+                <div className='item-separados3'>
+
+            <img className='' src={Data_Visualization} alt="" />
+                <h2><p>DATA</p> VISUALIZATION</h2>
+                </div>
+            <div className='servicios-tercer-item3'>
+                <p><p>Te ayudamos a visualizar tus</p> datos de la mejor forma</p>
+                <div className='servicios-item-a'>
+
+                <a href="/">Leer más <BsArrowRight className='arrow'/></a>
+                </div>
+            </div>
         </div>
     </div>
     </div>

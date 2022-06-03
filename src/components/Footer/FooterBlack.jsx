@@ -75,10 +75,23 @@ const FooterBlack = () => {
             </h2>
               </div>
           </div>
+          <div className="footer-agroup-container-mobile">
+          <div className="footer-item1">
+            <h2 className="h2">Soporte</h2>
+            <h3 className="h3">Contacto</h3>
+            <h3 className="h3">Numero</h3>
+          </div>
+          <div className="footer-item2">
+            <h2 className="h2">Faq</h2>
+            <h3 className="h3">Manage Deliveries</h3>
+            <h3 className="h3">Politicas de Privacidad</h3>
+          </div>
+        </div>
         </div>
         <div className='footer-footer-items2'>
-          <img style={{width: "40px", height:'40px', marginTop:'-10px', marginRight:'10px'}} src={Facebook} alt="redes" />
-          <img style={{width: "40px", height:'40px', marginTop:'-10px', marginRight:'10px'}} src={Whatsapp} alt="whatsapp" />
+          
+          <img style={{width: "40px", height:'40px', marginTop:'-10px', marginRight:'10px'}} src={Facebook} alt="redes" className='redes'/>
+          <img style={{width: "40px", height:'40px', marginTop:'-10px', marginRight:'10px'}} src={Whatsapp} alt="whatsapp" className='redes' />
           <div className='footer-derechos'>
 
           <h6>2000 2021. Todos los derechos reservados</h6>

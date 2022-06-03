@@ -50,3 +50,113 @@
     color: gray;
     font-weight: 600;
 }
+
+.dataIcons-container2{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .dataIcons-container2{
+        width: 100%;
+        background: #ffff;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dataIcons-container{
+        display: none;
+    }
+    
+    .dataIcons-container2 .dataIcons-group1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 220px;
+    }
+
+    .icono-responsive{
+        display: flex;
+    }
+    .icono-responsive > img{
+        width: 60px;
+        height: 60px;
+        margin-right: 30px;
+    }
+    .icono-responsive > h2{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .icono-item1{
+        margin-left: -140px;
+        margin-bottom: -200px;
+    }
+    .icono-item2{
+        margin-left: -140px;
+        margin-bottom: -200px;
+    }
+    .icono-item3{
+        margin-left: -140px;
+        margin-bottom: -220px !important;
+    }
+    .icono-item4{
+        margin-left: -140px;
+        margin-bottom: -200px;
+    }
+    .icono-item5{
+        margin-left: -140px;
+        margin-bottom: 100px;
+    }
+    
+    
+
+    
+    .dataIcons-parrafo{
+        margin-top: 45px;
+        width: 300px;
+    }
+    .dataIcons-parrafo > p{
+        margin-left: 90px;
+        margin-top: -30px;
+        color: gray;
+        font-weight: 600;
+    }
+    
+    .dataIcons-parrafo2{
+    }
+    .dataIcons-parrafo2 > p{
+        color: gray;
+        font-weight: 600;
+    }
+    
+    
+}

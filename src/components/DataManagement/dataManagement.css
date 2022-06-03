@@ -68,3 +68,149 @@
     font-size: 18px;
     margin-bottom: 30px;
 }
+
+.data-img-mobile{
+    display: none;
+}
+
+.data-group-mobile{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .data{
+        background: #040415 ;
+        height: 105vh;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .data-titulo{
+        color:#f4511e;
+    margin-left: 60px;
+    margin-top: 100px;
+    }
+    .data-titulo > h1{
+        letter-spacing: 2px;
+        font-size: 25px;
+    
+        font-weight: 400;;
+    }
+    
+    .data-group{
+       display: none;
+    }
+
+   
+
+    .data-group-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .data-group-mobile .data-group-1{
+        margin-right: 250px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .data-group-mobile .data-group-1 .items-column{
+        display: flex;
+    }
+    
+   .data-group-mobile .data-group-1 .items-column > img{
+        opacity:0.2;
+        filter:alpha(opacity=40);
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .data-group-mobile .data-group-1 .items-column > h3{
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: 400;
+        margin-left: 55px;
+        letter-spacing: 3px;
+    
+    }
+   .data-group-mobile .data-group-1 > h2{
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        margin-left: 55px;
+        margin-top: -10px;
+        width: 300px;
+    }
+
+
+    
+   .data-group-mobile .data-group-2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   .data-group-mobile .data-group-2  .parrafo1{
+        letter-spacing: 2px;
+        margin-top:50px;
+        max-width: 300px;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 55px;
+        margin-bottom: 20px;
+    }
+
+    .data-group-mobile .data-group-2  .parrafo2{
+        letter-spacing: 2px;
+        margin-top:0px;
+        max-width: 300px;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 55px;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    
+}

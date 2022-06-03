@@ -25,7 +25,7 @@ const Metodologia = () => {
               <div>
                 <h1 className="metodologia_number">1</h1>
               </div>
-              <div>
+              <div className="text1">
                 <p className="metodologia_text">
                   Definición de las preguntas de negocio correctas para que se
                   puedan tratar de forma analitica y respondan a los objetivos
@@ -37,7 +37,7 @@ const Metodologia = () => {
               <div>
                 <h1 className="metodologia_number">2</h1>
               </div>
-              <div>
+              <div className="text2">
                 <p className="metodologia_text">Recopilación y extracción de datos</p>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Metodologia = () => {
               <div>
                 <h1 className="metodologia_number">3</h1>
               </div>
-              <div>
+              <div className="text3">
                 <p className="metodologia_text">
                   Limpieza y reestructuracion de los datos para que sean aptos
                   para ser analizados
@@ -56,7 +56,7 @@ const Metodologia = () => {
               <div>
                 <h1 className="metodologia_number">4</h1>
               </div>
-              <div>
+              <div className="text4">
                 <p className="metodologia_text">
                   Analisis de los datos: procesos, analisis exploratotio,
                   creacion y optimizacion de modelos, analisis predictivos,
@@ -68,7 +68,7 @@ const Metodologia = () => {
               <div>
                 <h1 className="metodologia_number">5</h1>
               </div>
-              <div>
+              <div className="text5">
                 <p className="metodologia_text">
                   Visualizacion de datos para comprender, extraer y comunicar
                   los insights de manera que sean facilmente comprensibles y
@@ -80,7 +80,7 @@ const Metodologia = () => {
               <div>
                 <h1 className="metodologia_number">6</h1>
               </div>
-              <div>
+              <div className="text6">
                 <p className="metodologia_text">Presentacion de insights y recomendaciones de negocio</p>
               </div>
             </div>

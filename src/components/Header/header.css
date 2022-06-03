@@ -95,18 +95,33 @@ input[type=checkbox]{
  display:none;
  position: absolute;
  background-color:#f4511e;
- right: 0;
- left: 0;
+ top: 120px;
+ right: -200px;
+ left: 0px;
  text-align: center;
- padding: 16px 0;
+ padding: 20px 0;
+ z-index: -1;
+ font-weight: 600;
 }
 .menu li:hover {
+
  display: inline-block;
  background-color:#f4511e;
  transition: 0.3s ease;
 }
 .menu li + li {
  margin-top: 12px;
+}
+.menu li {
+   padding: 5px 14px;
+  }
+  .nav-links a {
+   color: #fff;
+  }
+.navbar-logo{
+   margin-left: -20px;
+   padding: 10px;
+   margin-right: 100px;
 }
 input[type=checkbox]:checked ~ .menu{
  display: block;

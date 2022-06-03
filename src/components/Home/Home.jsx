@@ -19,9 +19,9 @@ const Home = () => {
 
         <Header />
         <Introduccion/>
-        <Metodologia/>
-        <Servicios/>
-        <Clientes/>
+         <Metodologia/>
+       <Servicios/>
+         <Clientes/>
         <DataManagement/>
         <DataIcons/>
         <Contacto/>

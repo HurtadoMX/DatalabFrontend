@@ -73,6 +73,151 @@ const DataIcons = () => {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* ESTE ITEM ES EL QUE SE MOSTRARA EN EL RESPONSIVE */}
+      <div className="dataIcons-container2">
+        <div className="dataIcons-group1">
+
+
+
+
+
+          <div className="icono-item1">
+
+          <div className="icono-responsive">
+            <img src={Data_Architecture} alt="" />
+            <h2><p>Data</p> Architecture</h2>
+          </div>
+          <div className="item">
+            <div className="dataIcons-parrafo">
+            <p >
+              Diseñamos la arquitectura de datos pra capturar, integrar,
+              almacenar, analizar y utilizar los datos
+            </p>
+            </div>
+          </div>
+          </div>
+
+
+
+
+          <div className="icono-item2">
+
+          <div className="icono-responsive">
+          <img src={Data_Integration} alt="" />
+            <h2><p>Data</p> Integration</h2>
+          </div>
+          <div className="item">
+            {" "}
+           
+            <div className="dataIcons-parrafo">
+
+            <p>
+              Consolidamos los datos de distintas fuentes con procesos de
+              extraccion y transformacion de datos
+            </p>
+            </div>
+          </div>
+          </div>
+
+
+
+
+        <div className="icono-item3">
+
+          <div className="icono-responsive">
+          <img src={Data_Quality} alt="" />
+            <h2><p>Data Quality</p> Management</h2>
+          </div>
+          <div className="item">
+            {" "}
+            
+            <div className="dataIcons-parrafo">
+
+            <p>
+              Estructuramos y limpiamos tus datos para asegurar la calidad de la
+              informacion.
+            </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div className="icono-item4">
+
+          <div className="icono-responsive">
+          <img src={Data_Storage} alt="" />
+            <h2><p>Data</p> Storage</h2>
+          </div>
+          <div className="item">
+            {" "}
+           
+            <div className="dataIcons-parrafo">
+
+            <p>
+              Implementamos soluciones de almacenamiento para datos diferentes
+              escalas y formatos
+            </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div className="icono-item5">
+
+          <div className="icono-responsive">
+          <img src={Data_Analytics} alt="" />
+            <h2><p>Data Analytics</p> & Reporting</h2>
+          </div>
+          <div className="item">
+            {" "}
+           
+            <div className="dataIcons-parrafo">
+
+            <p>
+              Diseñamos la infraestructura para Data Analytics, BI y Reporting
+            </p>
+        </div>
+            </div>
+          </div>
+
+          
+      </div>
+        </div>
+
+
+
+
+
     </div>
   );
 };

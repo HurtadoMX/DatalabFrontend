@@ -169,10 +169,310 @@ margin-right: 50px;
     margin-bottom: 10px;
 }
 
+.item1{
+display: none;
+}
+.item2{
+    display: none;
+}
+.item3{
+    display: none;
+}
 
 .arrow{
     position: absolute;
     margin-top: 1px;
     margin-left: 5px;
     font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+    .servicios{
+        width: 100%;
+        background: #040415 ;
+        height: 200vh;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .servicios-image-puntos{
+        width: 300px;
+        position: absolute;
+        opacity:0.4;
+        filter:alpha(opacity=40);
+       z-index: 0;
+       margin-left: 112px;
+       margin-right: 0px;
+       margin-top: -600px;
+       transform: scaleX(-1);
+    }
+    
+    .servicios-titulo{
+       color:#f4511e;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+    
+    .servicios-titulo > h1{
+        letter-spacing: 2px;
+        font-size: 25px;
+    
+        font-weight: 400;
+    }
+    
+    .servicios-group{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 100px;
+        margin-left: 250px;
+    }
+    .servicios-group >h2{
+        letter-spacing: 2px;
+    
+        margin-left: -150px;
+        width: 300px;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .servicios-group > p{
+        margin-top: 50px;
+        margin-left: -200px;
+        max-width: 300px;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+    
+    .servicios-items{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        align-items: center;
+        justify-content: center;
+        justify-items: baseline;
+    
+    }
+
+    
+    .servicios-primer-item{
+        display: none;
+       
+    }
+   
+
+    .servicios-segundo-item{
+        display: none;
+    }
+
+
+    .servicios-tercer-item{
+        display: none;  
+    }
+    
+
+
+    .item1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .item-separados1{
+       display: flex;
+   }
+   .item-separados1 > h2{
+       letter-spacing: 1px;
+       margin-left: 20px;
+   }
+   .item-separados1 > img{
+       width: 50px;
+       margin-left: 0px;
+   }
+   .servicios-primer-item1 {
+
+   }
+   .item1 .servicios-primer-item1 > p{
+    width: 200px;
+    margin-left: 70px;
+    }
+    .item1 .servicios-primer-item1 > div > a{
+        font-size: 15px;
+    width: 100px;
+    margin-left: 70px;
+    }
+
+
+
+
+
+
+
+    .item2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+   .item-separados2{
+    display: flex;
+}
+.item-separados2 > h2{
+    letter-spacing: 1px;
+       margin-left: 20px;
+}
+.item-separados2 > img{
+    width: 50px;
+    margin-left: 0px;
+}
+.item-separados2 > a{
+    width: 50px;
+    margin-left: -60px;
+}
+.servicios-primer-item2 {
+
+}
+.item2 .servicios-primer-item2 > p{
+    width: 200px;
+    margin-left: 70px;
+ }
+ .item2 .servicios-primer-item2 > div > a{
+    font-size: 15px;
+    width: 100px;
+    margin-left: 70px
+ }
+
+
+
+
+
+ .item3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.item-separados3{
+    display: flex;
+}
+.item-separados3 > h2{
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.item-separados3 > img{
+    width: 50px;
+       margin-left: 0px;
+}
+.item-separados3 > a{
+    width: 50px;
+    margin-left: -60px;
+}
+.servicios-primer-item3 {
+
+}
+.item3 .servicios-tercer-item3 > p{
+    width: 200px;
+    margin-left: 70px;
+ }
+ .item3 .servicios-tercer-item3 > div > a{
+    font-size: 15px;
+    width: 100px;
+    margin-left: 70px
+ }
+
+
+
+
+
+    .servicios-item-a > {
+        margin-top: 10px;
+    }
+    
+    .servicios-item-a > a{
+        position: absolute;
+        margin-top: 20px;
+        color:#f4511e;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    
+    
+     .servicios-text-h2{
+        margin-top: 20px;
+     }
+    
+     .servicios-text-parrafo-1{
+        font-weight: 400;
+         margin-top: 40px;
+     }
+    
+    .servicios-svg1{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .servicios-svg2{
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+    .servicios-svg3{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .arrow{
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    
+    
 }
