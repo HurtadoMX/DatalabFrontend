@@ -30,6 +30,15 @@ const Header = () => {
           <li className="header-li">
               <Link to="data" spy={true} smooth={true} offset={-70} duration={500}>Data Management</Link>
           </li>
+
+          <li className="header-li">
+              <Link to="science" spy={true} smooth={true} offset={-70} duration={500}>Data Science</Link>
+          </li>
+
+          <li className="header-li">
+              <Link to="visual" spy={true} smooth={true} offset={-70} duration={500}>Data Visualization</Link>
+          </li>
+
           <li className="header-li">
               <Link to="contactos" spy={true} smooth={true} offset={-70} duration={500}>Contacto</Link>
           </li>

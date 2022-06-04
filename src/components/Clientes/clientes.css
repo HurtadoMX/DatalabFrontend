@@ -67,6 +67,64 @@
 
 
 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .clientes{
+        
+        display: flex;
+        flex-direction: column;
+        background-color: #ffff;
+        margin-bottom: 100px;
+    }
+    
+    .clientes-titulo{
+        color:#f4511e;
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    .clientes-titulo > h1{
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+    
+    .clientes-flex{
+        margin-left: -100px;
+        margin-top: 100px;
+        display: flex;
+        margin-bottom: 30px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    
+    }
+    
+    .clientes-imagen{
+        margin-left: 100px;
+    
+        max-width: 140px;
+        max-height: 80px;
+    }
+    
+    .hr-items{
+        
+            position: absolute;
+            left: 70px;
+            height:2px;
+            width:90vw;
+            border-width:0;
+            color:#8d99ae;
+            background-color:rgba(100, 93, 93, 0.5);
+            font-weight: 800;
+           
+    }
+    
+    .clientes-agroup{
+        margin-bottom: 50px;
+    }
+    
+    .clientes-agroup2{
+        display: none;
+    }
+    }
 
 
 
@@ -84,7 +142,68 @@
 
 
 
-@media screen and (max-width:480px) {
+
+
+    @media all and (min-width: 480px) and (max-width: 768px) { 
+    .clientes{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    margin-bottom: 100px;
+}
+
+.clientes-titulo{
+    color:#f4511e;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.clientes-titulo > h1{
+    letter-spacing: 2px;
+    font-size: 30px;
+
+    font-weight: 400;;
+}
+
+.clientes-agroup{
+    display: none;
+}
+.clientes-agroup2{
+    display: flex;
+}
+
+.clientes-agroup2 .clientes-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 70px;
+    margin-right: 100px;
+    margin-left: -40px;
+}
+
+.clientes-agroup2 .clientes-flex .clientes-imagen{
+    max-width: 250px;
+    height: 70px;
+    
+    margin-right: -10px;
+    margin-bottom: 30px;
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 480px) { 
     
 .clientes{
     display: flex;
@@ -116,13 +235,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 70px;
-    margin-left: -40px;
+    grid-gap: 30px;
+    margin-left: -90px;
 }
 
 .clientes-agroup2 .clientes-flex .clientes-imagen{
-    width: 100px;
+    max-width: 180px;
+   height: 40px;
     
-    margin-right: -10px;
+    margin-right: -90px;
     margin-bottom: 30px;
 }
 
