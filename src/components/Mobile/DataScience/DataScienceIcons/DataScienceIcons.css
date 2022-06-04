@@ -1,0 +1,321 @@
+.dataIcons-container-escritorio{
+    background: #ffff;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dataIcons-container-escritorio .dataIcons-group1{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 250px 200px 200px;
+    grid-gap: 150px;
+}
+
+
+.dataIcons-container-escritorio .item .dataIcons-image{
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.dataIcons-container-escritorio .item .dataIcons-parrafo2 > p{
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+
+
+.dataIcons-container-escritorio .item > h2{
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+
+
+.dataIcons-container-escritorio .item .dataIcons-parrafo{
+    margin-top: 45px;
+}
+.dataIcons-container-escritorio .item .dataIcons-parrafo > p{
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+
+.dataIcons-container-mobile{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .dataIcons-container-escritorio{
+        background: #ffff;
+        height: 115vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dataIcons-container-escritorio .dataIcons-group1{
+        margin-top: 100px;
+        margin-left: 120px;
+        display: grid;
+        grid-template-columns: 250px 200px 200px;
+        grid-gap: 100px;
+    }
+    
+  
+    
+    .dataIcons-container-mobile{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .dataIcons-container-mobile{
+        width: 100%;
+        background: #ffff;
+        height: 230vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dataIcons-container-escritorio{
+        display: none;
+    }
+    
+    .dataIcons-container-mobile .dataIcons-group1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 230px;
+        margin-left: 300px;
+    }
+
+    .dataIcons-container-mobile .icono-responsive{
+        display: flex;
+    }
+   .dataIcons-container-mobile  .icono-responsive > img{
+        width: 80px;
+        height: 80px;
+        margin-right: 30px;
+    }
+   .dataIcons-container-mobile  .icono-responsive > h2{
+    letter-spacing: 2px;    
+    margin-top: 10px;
+        font-size: 25px;
+    }
+    
+   .dataIcons-container-mobile .dataIcons-group1 .icono-item1{
+        margin-left: -140px;
+        margin-bottom: -200px;
+    }
+   .dataIcons-container-mobile .dataIcons-group1 .icono-item2{
+        margin-left: -140px;
+        margin-bottom: -180px;
+    }
+   .dataIcons-container-mobile .dataIcons-group1 .icono-item3{
+        margin-left: -140px;
+        margin-bottom: -180px !important;
+    }
+
+    
+
+    
+   .dataIcons-container-mobile .dataIcons-group1  .icono-item1 .item .dataIcons-parrafo{
+        
+    margin-top: -15px;
+        width: 500px;
+        margin-bottom: 20px;
+
+    }
+   .dataIcons-container-mobile .dataIcons-group1  .icono-item1 .item .dataIcons-parrafo > p{
+    letter-spacing: 2px;    
+    font-size: 20px;
+        margin-left: 120px;
+        margin-top: 10px;
+        color: gray;
+        font-weight: 600;
+    }
+    
+
+
+    .dataIcons-container-mobile .dataIcons-group1  .icono-item2 .item .dataIcons-parrafo{
+        margin-top: -15px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+   .dataIcons-container-mobile .dataIcons-group1  .icono-item2 .item .dataIcons-parrafo > p{
+    letter-spacing: 2px;    
+    font-size: 20px;
+        margin-left: 120px;
+        margin-top: 10px;
+        color: gray;
+        font-weight: 600;
+    }
+
+
+    .dataIcons-container-mobile .dataIcons-group1  .icono-item3 .item .dataIcons-parrafo{
+        margin-top: -15px;
+        width: 500px;
+    }
+   .dataIcons-container-mobile .dataIcons-group1  .icono-item3 .item .dataIcons-parrafo > p{
+    letter-spacing: 2px;    
+    font-size: 20px;
+        margin-left: 120px;
+        margin-top: 0px;
+        color: gray;
+        font-weight: 600;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 480px) { 
+    .dataIcons-container-mobile{
+        width: 100%;
+        background: #ffff;
+        height: 125vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dataIcons-container-escritorio{
+        display: none;
+    }
+    
+    .dataIcons-container-mobile .dataIcons-group1{
+        display: flex;
+ flex-direction: column;
+        margin-left: 210px;
+    }
+
+    .dataIcons-container-mobile .icono-responsive{
+        display: flex;
+    }
+   .dataIcons-container-mobile  .icono-responsive > img{
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    }
+   .dataIcons-container-mobile  .icono-responsive > h2{
+    letter-spacing: 2px;    
+    margin-top: 10px;
+    font-size: 20px;
+    }
+
+    
+    
+   .dataIcons-container-mobile .dataIcons-group1 .icono-item1{
+        margin-left: -140px;
+        margin-bottom: -200px;
+    }
+   .dataIcons-container-mobile .dataIcons-group1 .icono-item2{
+        margin-left: -140px;
+        margin-bottom: -180px;
+    }
+   .dataIcons-container-mobile .dataIcons-group1 .icono-item3{
+        margin-left: -140px;
+        margin-bottom: -180px ;
+    }
+
+
+
+    
+   .dataIcons-container-mobile .dataIcons-group1  .icono-item1 .item .dataIcons-parrafo{
+        
+    margin-top: -15px;
+        width: 300px;
+        margin-bottom: 20px;
+
+    }
+   .dataIcons-container-mobile .dataIcons-group1  .icono-item1 .item .dataIcons-parrafo > p{
+    letter-spacing: 2px;    
+        margin-left: 90px;
+        margin-top: 10px;
+        color: gray;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+
+
+    .dataIcons-container-mobile .dataIcons-group1  .icono-item2 .item .dataIcons-parrafo{
+        margin-top: -15px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+   .dataIcons-container-mobile .dataIcons-group1  .icono-item2 .item .dataIcons-parrafo > p{
+    letter-spacing: 2px;    
+    font-size: 12px;
+        margin-left: 90px;
+        margin-top: 10px;
+        color: gray;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+
+    .dataIcons-container-mobile .dataIcons-group1  .icono-item3 .item .dataIcons-parrafo{
+        margin-top: -15px;
+        width: 300px;
+    }
+   .dataIcons-container-mobile .dataIcons-group1  .icono-item3 .item .dataIcons-parrafo > p{
+    letter-spacing: 2px;    
+        margin-left: 90px;
+        margin-top: 0px;
+        color: gray;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+
+
+
+
+

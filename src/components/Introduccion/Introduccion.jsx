@@ -17,6 +17,7 @@ const Introduccion = () => {
         {/* <div className="introduccion-left"><h1>WE ARE DATALAB</h1></div> */}
 
         <div>
+          
        
 
             <div className="introduccion-primera-parte">
@@ -30,8 +31,11 @@ const Introduccion = () => {
             <h4>DATA SCIENCE & ANALYTICS</h4>
             <h1 className="introduccion-text-principal">
               PARA TRANSFORMAR <b className="introduccion-text-negritas">DATOS</b> EN <b className="introduccion-text-negritas">INSIGHTS</b> QUE INCREMENTAN LA EFICIENCIA,
-              MAXIMIZEN LA EFECTIVIDAD Y GENERAN VALOR
+              MAXIMIZEN LA EFECTIVIDAD Y GENERAN VALOR.
             </h1>
+            <div className="copia-introduccion-primera-parte">
+           <button><span> <Link to="contactos" spy={true} smooth={true} offset={-70} duration={500}>Contacto</Link></span></button>
+           </div>
           </div>
           <div className="introduccion-scroll animate__animated animate__backInDown">
             <img src={scroll} alt="" />
@@ -47,13 +51,34 @@ const Introduccion = () => {
           <div className="introduccion-items">
             <div className="introduccion-primer-item">
               <img className="introduccion-imagen-metodologia" src={metodologia} alt="" />
-              <h3><p>Metodologia</p> Enfocada al Negocio</h3>
+              <h3><p>Metodología</p> Enfocada al Negocio</h3>
+
+              
               <p>
                 Entendemos que no solo se trata de recopilar y analizar
-                informacion Nuestra mision es descubrir insights que generen
+                información. Nuestra misión es descubrir insights que generen
                 valor para el negocio
               </p>
             </div>
+
+
+            {/* //ESTE ES EL ITEM QUE SE MOSTRARA EN LA VERSION RESPONSIVE */}
+              <div className="item-separados">
+
+              <img className="introduccion-imagen-metodologia" src={metodologia} alt="" />
+              <h3><p>Metodología</p> Enfocada al Negocio</h3>
+              </div>
+            <div className="introduccion-primer-item2">
+              <p>
+                Entendemos que no solo se trata de recopilar y analizar
+                información. Nuestra mision es descubrir insights que generen
+                valor para el negocio
+              </p>
+              </div>
+
+
+
+
             <div className="introduccion-primer-item">
               <img className="introduccion-imagen-metodologia" src={INSIGHTS_ACCIONABLES} alt="" />
               <h3> <p>Insights</p> Accionables</h3>
@@ -62,15 +87,58 @@ const Introduccion = () => {
                 mejores decisiones para el negocio
               </p>
             </div>
+
+
+
+
+            {/* //ESTE ES EL ITEM QUE SE MOSTRARA EN LA VERSION RESPONSIVE */}
+              <div className="item-separados">
+
+            <img className="introduccion-imagen-metodologia" src={INSIGHTS_ACCIONABLES} alt="" />
+              <h3> <p>Insights</p> Accionables</h3>
+              </div>
+            <div className="introduccion-primer-item2">
+              <p>
+                Construimos Insights, a partir de tus datos, para tomar las
+                mejores decisiones para el negocio
+              </p>
+              </div>
+
+
+
+
+
             <div className="introduccion-primer-item">
               <img className="introduccion-imagen-metodologia" src={Crecimiento_ROI} alt="" />
               <h3><p>Foco en</p> Crecimiento & ROI</h3>
               <p>
                 Trabajamos con tu equipo para identificar oportunidades de
-                crecimiento u optimizacion, siempre sustentadas por el análisis
+                crecimiento u optimización, siempre sustentadas por el análisis
                 de datos
               </p>
             </div>
+
+
+
+
+            {/* //ESTE ES EL ITEM QUE SE MOSTRARA EN LA VERSION RESPONSIVE */}
+              <div className="item-separados">
+
+            <img className="introduccion-imagen-metodologia" src={Crecimiento_ROI} alt="" />
+              <h3><p>Foco en</p> Crecimiento & ROI</h3>
+              </div>
+            <div className="introduccion-primer-item2">
+              <p>
+                Trabajamos con tu equipo para identificar oportunidades de
+                crecimiento u optimizacion, siempre sustentadas por el análisis
+                de datos
+              </p>
+              </div>
+
+
+
+
+
           </div>
         </div>
         </div>

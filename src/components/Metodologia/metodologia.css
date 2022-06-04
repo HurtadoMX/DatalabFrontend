@@ -100,3 +100,417 @@
 .primer-punto{
     width: 400px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 769px) and (max-width: 1024px) { 
+    .metodologia{
+        background: #040415 ;
+        height: 230vh;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .metodologia-textura{
+        width: 900px;
+        height: 900px;
+        position: absolute;
+        opacity:0.4;
+        filter:alpha(opacity=40); 
+       z-index: 0;
+       margin-left: -450px;
+       margin-top: 100px;
+    }
+    
+    .metodologia-titulo{
+        color:#f4511e;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+    .metodologia-titulo >h1{
+        letter-spacing: 2px;
+    
+        font-weight: 400;
+    }
+    .metodolodgia-titulo > h1{
+        font-weight: 300;
+    }
+    .hr{
+        position: absolute;
+        margin-top: -10px;
+        left: 100px;
+        height:7vh;
+        width:.5vw;
+        border-width:0;
+        color:#f4511e;
+        background-color:#f4511e;
+       }
+
+    .metodologia-puntos{
+        display: flex;
+        max-width: 500px;
+        margin-left: 250px;
+        margin-top: 70px;
+        
+    }
+    .metodologia-group{
+        display: flex;
+        margin-left: -100px;
+    }
+    
+    .text-left{
+        margin: -200px;
+        margin-top: 65px;
+        margin-left: 200px;
+        max-width: 400px;
+        font-weight: 350;
+        font-size: 30px;
+    
+    }
+    
+    .metodologia_number{
+    
+        font-weight: 400;
+        color:#f4511e;
+        margin-top: -6px;
+        margin-right: 10px;
+    
+    }
+    
+    .metodologia_text{
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 18px;
+    
+    }
+    
+    .metodologia-text-footer{
+        max-width: 700px;
+       margin-left: 160px;
+       margin-top: 130px;
+    }
+    
+    .metodologia-text-footer-parrafo{
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    .primer-punto{
+        width: 400px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 481px) and (max-width: 768px) { 
+
+    .metodologia{
+        background: #040415 ;
+        height: 260vh;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .metodologia-textura{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        opacity:0.4;
+        filter:alpha(opacity=40); 
+       z-index: 0;
+       margin-left: -280px;
+       margin-top: 100px;
+    }
+    
+    .metodologia-titulo{
+        color:#f4511e;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .metodologia-titulo >h1{
+        letter-spacing: 2px;
+        font-size: 30px;
+    
+        font-weight: 400;
+    }
+    .metodolodgia-titulo > h1{
+        font-weight: 300;
+    }
+    .hr{
+        position: absolute;
+        margin-top: -15px;
+        left: 80px;
+        height:7vh;
+        width:.5vw;
+        border-width:0;
+        color:#f4511e;
+        background-color:#f4511e;
+       }
+    
+    .metodologia-puntos{
+        display: flex;
+        max-width: 250px;
+        margin-left: 300px;
+        margin-top: 70px;
+        
+    }
+    .metodologia-group{
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    
+    .text-left{
+        margin-top: 65px;
+        margin-left:    200px;
+        max-width: 600px;
+        font-weight: 350;
+        font-size: 25px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .metodologia_number{
+        font-size: 40px;    
+        font-weight: 500;
+        color:#f4511e;
+        margin-top: -6px;
+        margin-right: 10px;
+    
+    }
+
+    .text1{
+        margin-bottom: -40px;
+
+    }
+    .text2{
+        margin-bottom: -40px;
+        
+    }
+    .text3{
+        margin-bottom: -40px;
+
+    }
+    .text4{
+        margin-bottom: -40px;
+
+    }
+    .text5{
+        margin-bottom: -40px;
+
+    }
+    .text6{
+        margin-bottom: -40px;
+
+    }
+    
+    
+    .metodologia_text{
+        width: 200%;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 20px;
+    
+    }
+    
+    .metodologia-text-footer{
+        max-width: 600px;
+       margin-left: 80px;
+       margin-top: 100px;
+    }
+    
+    .metodologia-text-footer-parrafo{
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    
+    .primer-punto{
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 480px) { 
+    .metodologia{
+        background: #040415 ;
+        height: 150vh;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+  
+
+    .metodologia-textura{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        opacity:0.4;
+        filter:alpha(opacity=40); 
+       z-index: 0;
+       margin-left: -280px;
+       margin-top: 100px;
+    }
+    
+    .metodologia-titulo{
+        color:#f4511e;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+    .metodologia-titulo >h1{
+        letter-spacing: 2px;
+        font-size: 25px;
+    
+        font-weight: 400;
+    }
+    .metodolodgia-titulo > h1{
+        font-weight: 300;
+    }
+    .hr{
+        position: absolute;
+        margin-top: -4px;
+        left: 50px;
+        height:7vh;
+        width:.5vw;
+        border-width:0;
+        color:#f4511e;
+        background-color:#f4511e;
+       }
+    
+    .metodologia-puntos{
+        display: flex;
+        max-width: 250px;
+        margin-left: 200px;
+        margin-top: 70px;
+        
+    }
+    .metodologia-group{
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    
+    .text-left{
+        letter-spacing: 1px;
+        margin: -100px;
+        margin-top: 65px;
+        margin-left:    150px;
+        max-width: 310px;
+        font-weight: 350;
+        font-size: 20px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .metodologia_number{
+        font-size: 40px;    
+        font-weight: 400;
+        color:#f4511e;
+        margin-top: -6px;
+        margin-right: 10px;
+    
+    }
+
+    .text1{
+        margin-bottom: -40px;
+
+    }
+    .text2{
+        margin-bottom: -40px;
+        
+    }
+    .text3{
+        margin-bottom: -40px;
+
+    }
+    .text4{
+        margin-bottom: -40px;
+
+    }
+    .text5{
+        margin-bottom: -40px;
+
+    }
+    .text6{
+        margin-bottom: -40px;
+
+    }
+    
+    
+    .metodologia_text{
+        width: 120%;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 15px;
+    
+    }
+    
+    .metodologia-text-footer{
+        max-width: 320px;
+       margin-left: 50px;
+       margin-top: 100px;
+    }
+    
+    .metodologia-text-footer-parrafo{
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    .primer-punto{
+        width: 400px;
+    }
+}

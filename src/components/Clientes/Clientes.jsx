@@ -35,6 +35,24 @@ const Clientes = () => {
         <img className="clientes-imagen" src={SACMEX} alt="SACMEX" />
       </div>
         </div>
+
+
+        {/* ESTA ESLA VISTA QUE SE MOSTRARA EN EL RESPONSIVE MOBILE */}
+
+        <div className="clientes-agroup2">
+      <div className="clientes-flex">
+
+        <img className="clientes-imagen" src={MonteXanic} alt="MonteXanic" />
+        <img className="clientes-imagen" src={LocoTequila} alt="Loco tequila" />
+        <img className="clientes-imagen" src={IBERO} alt="IBERO" />
+        <img className="clientes-imagen" src={Monte_Pío} alt="Montepio" />
+      
+        <img className="clientes-imagen" src={Corporación_RICA} alt="RICA" />
+        <img className="clientes-imagen" src={genomma_lab} alt="Genomma Lab Internacional" />
+        <img className="clientes-imagen" src={GobCDMX} alt="Gobierno" />
+        <img className="clientes-imagen" src={SACMEX} alt="SACMEX" />
+      </div>
+        </div>
     </div>
   );
 };

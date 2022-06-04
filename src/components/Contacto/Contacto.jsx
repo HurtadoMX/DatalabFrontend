@@ -16,8 +16,8 @@ const Contacto = () => {
         </div>
         <div className="contacto-formulario">
           <p>
-            Tienes preguntas sobre la agencia o ¿Solo quieres saber más sobre lo
-            que hacemos? Escribenos
+            Tienes preguntas sobre la agencia o ¿Sólo quieres saber más sobre lo
+            que hacemos? Escríbenos
           </p>
           <input className='contacto-nombre' type="text" placeholder="Nombre" />
           <input className='contacto-email' type="text" placeholder="Email" />

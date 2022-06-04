@@ -104,3 +104,405 @@
     height:  30px;
     color: #fff;
 }
+
+
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .contacto{
+        background: #040415 ;
+        height: 130vh;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto-titulo{
+        color:#f4511e;
+        margin-left: 130px;
+        margin-top: 100px;
+    }
+    
+    .contacto-titulo > h1{
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+    
+    .contacto-group{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .contacto-trabajemos{
+        max-width: 500px;
+        margin-right: 100px;
+    
+    }
+    .contacto-trabajemos > h3{
+        max-width: 500px;
+        font-size: 50px;
+    
+        font-weight: 400;
+        margin-top: -210px;
+        letter-spacing: 3px;
+    }
+    .contacto-trabajemos > h2{
+        letter-spacing: 6px;
+        max-width: 500px;
+        font-weight: 700;
+        font-size: 80px;
+    }
+    
+    .contacto-formulario{
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto-formulario > p{
+        letter-spacing: 2px;
+        color: rgb(192, 169, 169);
+        margin-top: 20px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    
+    }
+    
+    .contacto-formulario > input{
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    
+    .contacto-formulario > input[type=text]{
+        font-weight: 400;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    
+    .contacto-formulario > button{
+        font-weight: 500;
+    }
+    
+    .contacto-nombre{
+        border: 0;
+        border-radius:  10px;
+    
+        height: 40px;
+    }
+    .contacto-email{
+        border: 0;
+        border-radius: 10px;
+    
+        height: 40px;
+    }
+    .contacto-mensaje{
+        border: 0;
+        border-radius: 10px;
+    
+        height: 80px;
+    }
+    
+    .contacto-btn{
+        border: 0;
+        background-color: #f4511e;
+        border: none;
+        border-radius: 10px;
+        height:  30px;
+        color: #fff;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .contacto{
+        width: 100%;
+        background: #040415 ;
+        height: 180vh;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto-titulo{
+        color:#f4511e;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    
+    .contacto-titulo > h1{
+        letter-spacing: 2px;
+        font-size: 30px;
+    
+        font-weight: 400;;
+    }
+    
+    .contacto-group{
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .contacto-trabajemos{
+        max-width: 500px;
+        margin-right: 0px;
+    
+    }
+    .contacto-trabajemos > h3{
+        max-width: 500px;
+        font-size: 50px;
+    
+        font-weight: 400;
+        margin-top: -210px;
+        letter-spacing: 3px;
+    }
+    .contacto-trabajemos > h2{
+        letter-spacing: 6px;
+        max-width: 500px;
+        font-weight: 700;
+        font-size: 80px;
+    }
+    
+    .contacto-formulario{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto-formulario > p{
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: rgb(192, 169, 169);
+        margin-top: 20px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    
+    }
+    
+    .contacto-formulario > input{
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    
+    .contacto-formulario > input[type=text]{
+        font-size: 20px;
+        font-weight: 400;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    
+    .contacto-formulario > button{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .contacto-nombre{
+        border: 0;
+        border-radius:  10px;
+    
+        height: 60px;
+    }
+    .contacto-email{
+        border: 0;
+        border-radius: 10px;
+    
+        height: 60px;
+    }
+    .contacto-mensaje{
+        border: 0;
+        border-radius: 10px;
+    
+        height: 120px;
+    }
+    
+    .contacto-btn{
+        border: 0;
+        background-color: #f4511e;
+        border: none;
+        border-radius: 10px;
+        height:  50px;
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 480px) { 
+    .contacto{
+        width: 100%;
+        background: #040415 ;
+        height: 130vh;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto-titulo{
+        color:#f4511e;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+    
+    .contacto-titulo > h1{
+        letter-spacing: 2px;
+        font-size: 25px;
+    
+        font-weight: 400;;
+    }
+    
+    .contacto-group{
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .contacto-trabajemos{
+        max-width: 500px;
+        margin-right: 0px;
+    
+    }
+    .contacto-trabajemos > h3{
+        max-width: 500px;
+        font-size: 50px;
+    
+        font-weight: 400;
+        margin-top: -210px;
+        letter-spacing: 3px;
+    }
+    .contacto-trabajemos > h2{
+        letter-spacing: 6px;
+        max-width: 500px;
+        font-weight: 700;
+        font-size: 80px;
+    }
+    
+    .contacto-formulario{
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto-formulario > p{
+        letter-spacing: 2px;
+        color: rgb(192, 169, 169);
+        margin-top: 20px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    
+    }
+    
+    .contacto-formulario > input{
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    
+    .contacto-formulario > input[type=text]{
+        font-weight: 400;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    
+    .contacto-formulario > button{
+        font-weight: 500;
+    }
+    
+    .contacto-nombre{
+        border: 0;
+        border-radius:  10px;
+    
+        height: 60px;
+    }
+    .contacto-email{
+        border: 0;
+        border-radius: 10px;
+    
+        height: 60px;
+    }
+    .contacto-mensaje{
+        border: 0;
+        border-radius: 10px;
+    
+        height: 120px;
+    }
+    
+    .contacto-btn{
+        border: 0;
+        background-color: #f4511e;
+        border: none;
+        border-radius: 10px;
+        height:  50px;
+        color: #fff;
+    }
+    
+    
+
+}
