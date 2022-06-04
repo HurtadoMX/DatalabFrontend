@@ -17,18 +17,18 @@ const DataScienceIcons = () => {
             <h2>Retail</h2>
 
             <div className="dataIcons-parrafo">
-              <p>Optimizacion de Precios</p>
+              <p>Optimización de Precios</p>
               <p>
-                Carcaterizacion puntos de ventas por zona e identificacion de
+                Carcaterización puntos de ventas por zona e identificación de
                 competencia
               </p>
               <p>
-                Planificacion territorial para estrategias comerciales y de
+                Planificación territorial para estrategias comerciales y de
                 marketing
               </p>
               <p>
-                Identificacion y analisis de ubicacionnes y zonas ideoneas para
-                estrategias de expansion y apertura de nuevos puntos de venta
+                Identificación y análisis de ubicacionnes y zonas idóneas para
+                estrategias de expansión y apertura de nuevos puntos de venta
               </p>
             </div>
           </div>
@@ -40,10 +40,10 @@ const DataScienceIcons = () => {
             <div className="dataIcons-parrafo2">
               <p>Media Mix Modeling</p>
               <p>Media Planning</p>
-              <p>Optimizacion Pauta Digital</p>
+              <p>Optimización Pauta Digital</p>
               <p>Market Forecasting</p>
               <p>Clusters Clientes Potencial</p>
-              <p>Identificacion de caracteristicas sociodemograficas</p>
+              <p>Identificación de características sociodemográficas</p>
             </div>
           </div>
           <div className="item">
@@ -51,7 +51,7 @@ const DataScienceIcons = () => {
             <img className="dataIcons-image" src={Logística} alt="" />
             <h2>Logistica</h2>
             <div className="dataIcons-parrafo">
-              <p>Optimizacion de canales y rutas de distribucion</p>
+              <p>Optimización de canales y rutas de distribución</p>
             </div>
           </div>
         </div>

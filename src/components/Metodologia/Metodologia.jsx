@@ -10,13 +10,13 @@ const Metodologia = () => {
       <div className="metodologia-wrapper">
         <div className="metodologia-titulo">
             <hr className="hr" />
-          <h1>METODOLOGIA</h1>
+          <h1>METODOLOGÍA</h1>
         </div>
         <img className="metodologia-textura" src={textura} alt="" />
         <div className="metodologia-group">
           <div >
             <h2 className="text-left" >
-              En cada etapa de nuestra colaboracion, nunca dejamos de buscar
+              En cada etapa de nuestra colaboración, nunca dejamos de buscar
               formas de hacer mas por nuestros clientes
             </h2>
           </div>
@@ -28,8 +28,8 @@ const Metodologia = () => {
               <div className="text1">
                 <p className="metodologia_text">
                   Definición de las preguntas de negocio correctas para que se
-                  puedan tratar de forma analitica y respondan a los objetivos
-                  de la empresa
+                  puedan tratar de forma analítica y respondan a los objetivos
+                  de la empresa.
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Metodologia = () => {
                 <h1 className="metodologia_number">2</h1>
               </div>
               <div className="text2">
-                <p className="metodologia_text">Recopilación y extracción de datos</p>
+                <p className="metodologia_text">Recopilación y extracción de datos.</p>
               </div>
             </div>
             <div className='metodologia-puntos primer-punto'>
@@ -47,8 +47,8 @@ const Metodologia = () => {
               </div>
               <div className="text3">
                 <p className="metodologia_text">
-                  Limpieza y reestructuracion de los datos para que sean aptos
-                  para ser analizados
+                  Limpieza y reestructuración de los datos para que sean aptos
+                  para ser analizados.
                 </p>
               </div>
             </div>
@@ -58,9 +58,9 @@ const Metodologia = () => {
               </div>
               <div className="text4">
                 <p className="metodologia_text">
-                  Analisis de los datos: procesos, analisis exploratotio,
-                  creacion y optimizacion de modelos, analisis predictivos,
-                  machine learning y estadistica
+                  Análisis de los datos: procesos, análisis exploratotio,
+                  creación y optimización de modelos, análisis predictivos,
+                  machine learning y estadística.
                 </p>
               </div>
             </div>
@@ -70,9 +70,9 @@ const Metodologia = () => {
               </div>
               <div className="text5">
                 <p className="metodologia_text">
-                  Visualizacion de datos para comprender, extraer y comunicar
-                  los insights de manera que sean facilmente comprensibles y
-                  podamos extraer inteligencia de ellos
+                  Visualización de datos para comprender, extraer y comunicar
+                  los insights de manera que sean fácilmente comprensibles y
+                  podamos extraer inteligencia de ellos.
                 </p>
               </div>
             </div>
@@ -81,16 +81,16 @@ const Metodologia = () => {
                 <h1 className="metodologia_number">6</h1>
               </div>
               <div className="text6">
-                <p className="metodologia_text">Presentacion de insights y recomendaciones de negocio</p>
+                <p className="metodologia_text">Presentación de insights y recomendaciones de negocio.</p>
               </div>
             </div>
           </div>
         </div>
         <div className="metodologia-text-footer">
           <p className="metodologia-text-footer-parrafo">
-           <p> La Ciencia de Datos requiere capabilities analiticos, pero tambien
-            una</p> <p>fuerte vision de negocio para poder extraer y transmitir
-            recomendaciones adaptadas</p> a las necesidades de la empresa
+           <p> La Ciencia de Datos requiere capabilities analíticos, pero también
+            una</p> <p>fuerte visión de negocio para poder extraer y transmitir
+            recomendaciones adaptadas</p> a las necesidades de la empresa.
           </p>
         </div>
       </div>

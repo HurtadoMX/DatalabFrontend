@@ -18,7 +18,7 @@ const FooterBlack = () => {
         <div className="footer-text">
           <p>
             Copyright 2018 Data Lab MX . Todos los derechos reservados. Data Lab
-            fomenta el uso de su infomacion, publicaciones y productos de
+            fomenta el uso de su infomación, publicaciones y productos de
             multimedia (sonido, imagen, software, etc.) por derechos de autor
           </p>
         </div>
@@ -44,7 +44,7 @@ const FooterBlack = () => {
               </div>
               <div className='footer-primer-item-text'>
 
-            <h4>Telefono</h4>
+            <h4>Teléfono</h4>
             <h2 >310-437-2766</h2>
               </div>
           </div>
@@ -71,7 +71,7 @@ const FooterBlack = () => {
             <h4>Direccion</h4>
             <h2 >
              <p> Torre Moliere; Calle Moliere No 13, Piso 7. Col.Polanco III</p>
-              Seccion. Miguel Hidalgo, CDMX, 11, 550
+              Sección. Miguel Hidalgo, CDMX, 11, 550
             </h2>
               </div>
           </div>

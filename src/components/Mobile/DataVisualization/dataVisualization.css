@@ -115,11 +115,13 @@
         font-weight: 400;
     }
     
+
     .hr-visual{
         position: absolute;
-        margin-left: -15px;
+        margin-top: -20px;
+        left: 140px;
         height:8vh;
-        width:.1vw;
+        width:.5vw;
         border-width:0;
         color:#f4511e;
         background-color:#f4511e;
@@ -223,6 +225,16 @@ margin-top: 100px;
 .data-group-visual{
    display: none;
 }
+.hr-visual{
+    position: absolute;
+    margin-top: -20px;
+    left: 100px;
+    height:8vh;
+    width:.5vw;
+    border-width:0;
+    color:#f4511e;
+    background-color:#f4511e;
+}
 
 
 
@@ -322,7 +334,7 @@ margin-top: 100px;
 
     .data3{
         background: #040415 ;
-        height: 185vh;
+        height: 105vh;
         color: #ffff;
         display: flex;
         flex-direction: column;
@@ -345,9 +357,10 @@ margin-top: 100px;
     }
     .hr-visual{
         position: absolute;
-        margin-left: -10px;
-        height:5vh;
-        width:.1vw;
+        margin-top: -5px;
+        left: 60px;
+        height:7vh;
+        width:.8vw;
         border-width:0;
         color:#f4511e;
         background-color:#f4511e;

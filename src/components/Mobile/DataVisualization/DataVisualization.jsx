@@ -23,8 +23,8 @@ const DataVisualization = () => {
             <h2>Datos para la toma <p>de decisiones</p></h2>
         </div>
         <div className='data-group-2'>
-            <p>La visualizacion de datos permite comprender grandes cantidades de datos de un vistazo y de una mejor manera para la toma de decisiones</p>
-            <p>Trabajamos con las empresas para definir e implementar estrategias de Data Visualization y Reporting para transformar los datos en dashboards, reportes y presentaciones para un mejor entendimiento de los insights, facilitar la toma de decisiones y comunicarlas a los equipos de trabajo</p>
+            <p>La visualización de datos permite comprender grandes cantidades de datos de un vistazo y de una mejor manera para la toma de decisiones.</p>
+            <p>Trabajamos con las empresas para definir e implementar estrategias de Data Visualization y Reporting para transformar los datos en dashboards, reportes y presentaciones para un mejor entendimiento de los insights, facilitar la toma de decisiones y comunicarlas a los equipos de trabajo.</p>
         </div>
     </div>
 

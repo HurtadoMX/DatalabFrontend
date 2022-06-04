@@ -226,6 +226,17 @@
     font-weight: 400;;
 }
 
+.hr_science{
+    position: absolute;
+    margin-top: -10px;
+    left: 100px;
+    height:10vh;
+    width:.5vw;
+    border-width:0;
+    color:#f4511e;
+    background-color:#f4511e;
+}
+
 
 .data-group-escritorio{
    display: none;
@@ -346,9 +357,10 @@
     
     .hr_science{
         position: absolute;
-        margin-left: -15px;
-        height:8vh;
-        width:.1vw;
+        margin-top: -0px;
+        left: 60px;
+        height:10vh;
+        width:.8vw;
         border-width:0;
         color:#f4511e;
         background-color:#f4511e;

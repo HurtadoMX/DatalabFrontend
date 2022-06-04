@@ -25,8 +25,8 @@ const DataManagement = () => {
                 <h2>Tus Datos</h2>
             </div>
             <div className='data-group-2'>
-                <p>Los datos de tu empresa pueden ser uno de tus activos mas valiosos, si los usas correctamente.</p>
-                <p>Te ayudamos a integrar, transformar, estructurar y limpiar tus datos para que sean utilizables para el analisis y puedas realizar su potencial</p>
+                <p>Los datos de tu empresa pueden ser uno de tus activos más valiosos, si los usas correctamente.</p>
+                <p>Te ayudamos a integrar, transformar, estructurar y limpiar tus datos para que sean utilizables para el analisis y puedas realizar su potencial.</p>
             </div>
         </div>
 

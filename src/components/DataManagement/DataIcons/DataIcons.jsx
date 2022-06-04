@@ -18,7 +18,7 @@ const DataIcons = () => {
 
             <p >
               Diseñamos la arquitectura de datos pra capturar, integrar,
-              almacenar, analizar y utilizar los datos
+              almacenar, analizar y utilizar los datos.
             </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ const DataIcons = () => {
 
             <p>
               Consolidamos los datos de distintas fuentes con procesos de
-              extraccion y transformacion de datos
+              extracción y transformación de datos.
             </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ const DataIcons = () => {
 
             <p>
               Estructuramos y limpiamos tus datos para asegurar la calidad de la
-              informacion.
+              información.
             </p>
             </div>
           </div>

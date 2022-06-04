@@ -220,7 +220,7 @@
     .dataIcons-container-mobile{
         width: 100%;
         background: #ffff;
-        height: 130vh;
+        height: 125vh;
         display: flex;
         flex-direction: column;
     }
@@ -276,11 +276,11 @@
     }
    .dataIcons-container-mobile .dataIcons-group1  .icono-item1 .item .dataIcons-parrafo > p{
     letter-spacing: 2px;    
-    font-size: 12px;
         margin-left: 90px;
         margin-top: 10px;
         color: gray;
         font-weight: 600;
+        font-size: 15px;
     }
     
 
@@ -297,6 +297,7 @@
         margin-top: 10px;
         color: gray;
         font-weight: 600;
+        font-size: 15px;
     }
 
 
@@ -306,11 +307,11 @@
     }
    .dataIcons-container-mobile .dataIcons-group1  .icono-item3 .item .dataIcons-parrafo > p{
     letter-spacing: 2px;    
-    font-size: 12px;
         margin-left: 90px;
         margin-top: 0px;
         color: gray;
         font-weight: 600;
+        font-size: 15px;
     }
 }
 

@@ -27,8 +27,8 @@ const DataScience = () => {
             <h2>Acelera tu Negocio</h2>
         </div>
         <div className='data-group-2'>
-        <p className='parrafo1'>La integracion de datos no es suficiente. El objetivo no es tener datos sino utilizarlos de la mejor forma</p>
-            <p className='parrafo2'>Trabajamos en equipo para comprender los objetivos mas importantes de tu negocio para poder analizar los datos e identificar insights que faciliten implementacion de acciones que generen crecimiento y un mejor ROI</p>
+        <p className='parrafo1'>La integración de datos no es suficiente. El objetivo no es tener datos sino utilizarlos de la mejor forma.</p>
+            <p className='parrafo2'>Trabajamos en equipo para comprender los objetivos más importantes de tu negocio para poder analizar los datos e identificar insights que faciliten implementación de acciones que generen crecimiento y un mejor ROI</p>
         </div>
     </div>
 

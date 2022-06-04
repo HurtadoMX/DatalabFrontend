@@ -16,7 +16,7 @@ const DataVisualizationIcons = () => {
             <div className="dataIcons-parrafo">
               <p>
                 Desarrollamos dashboards y reportes personalizados en base a las
-                necesidades de nuestros clientes
+                necesidades de nuestros clientes.
               </p>
             </div>
           </div>
