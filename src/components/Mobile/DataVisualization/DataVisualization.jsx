@@ -6,7 +6,7 @@ const DataVisualization = () => {
   return (
     <div className='data3' id='visual'>
     <div className='data-titulo3'>
-        <hr className='hr-visual' />
+        <hr className='hr_metodologia' />
         <h1>DATA VISUALIZATION</h1>
     </div>
 

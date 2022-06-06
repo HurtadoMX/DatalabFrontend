@@ -1,25 +1,26 @@
 .metodologia{
+    width: 100%;
     background: #040415 ;
-    height: 190vh;
+    height: 120%;
     color: #ffff;
     display: flex;
     flex-direction: column;
 }
 
 .metodologia-textura{
-    width: 900px;
-    height: 900px;
+    width: 50%;
+    height: 50%;
     position: absolute;
     opacity:0.4;
     filter:alpha(opacity=40); 
    z-index: 0;
-   margin-left: -330px;
+   margin-left: -22%;
    margin-top: 100px;
 }
 
 .metodologia-titulo{
     color:#f4511e;
-    margin-left: 230px;
+    margin-left: 11%;
     margin-top: 100px;
 }
 .metodologia-titulo >h1{
@@ -33,8 +34,8 @@
 .hr{
     position: absolute;
     margin-top: -10px;
-    left: 200px;
-    height:10vh;
+    left: 10%;
+    height:4%;
     width:.1vw;
     border-width:0;
     color:#f4511e;
@@ -48,21 +49,22 @@
 
 .metodologia-puntos{
     display: flex;
-    max-width: 500px;
-    margin-left: 250px;
+    max-width: 170%;
+    margin-left: 5%;
     margin-top: 70px;
     
 }
 .metodologia-group{
     display: flex;
-    margin-left: -100px;
+    margin-left: 3%;
+    margin-right: 10%;
 }
 
 .text-left{
-    margin: -100px;
-    margin-top: 65px;
-    margin-left:    300px;
-    max-width: 400px;
+    margin: 10%;
+    margin-top: 5%;
+    margin-left:15%;
+    max-width: 100%;
     font-weight: 350;
     font-size: 30px;
 
@@ -73,7 +75,7 @@
     font-weight: 400;
     color:#f4511e;
     margin-top: -6px;
-    margin-right: 10px;
+    margin-right: 12%;
 
 }
 
@@ -85,9 +87,10 @@
 }
 
 .metodologia-text-footer{
-    max-width: 700px;
-   margin-left: 300px;
-   margin-top: 130px;
+    max-width: 70%;
+   margin-left: 15%;
+   margin-top: 5%;
+   margin-bottom: 10%;
 }
 
 .metodologia-text-footer-parrafo{
@@ -115,7 +118,7 @@
 @media all and (min-width: 769px) and (max-width: 1024px) { 
     .metodologia{
         background: #040415 ;
-        height: 230vh;
+        height: 120%;
         color: #ffff;
         display: flex;
         flex-direction: column;
@@ -148,9 +151,9 @@
     .hr{
         position: absolute;
         margin-top: -10px;
-        left: 100px;
-        height:7vh;
-        width:.5vw;
+        left: 10%;
+        height:4%;
+        width:.1vw;
         border-width:0;
         color:#f4511e;
         background-color:#f4511e;
@@ -239,7 +242,7 @@
 
     .metodologia{
         background: #040415 ;
-        height: 260vh;
+        height: 120%;
         color: #ffff;
         display: flex;
         flex-direction: column;
@@ -385,7 +388,7 @@
 @media all and (max-width: 480px) { 
     .metodologia{
         background: #040415 ;
-        height: 150vh;
+        height: 120%;
         color: #ffff;
         display: flex;
         flex-direction: column;

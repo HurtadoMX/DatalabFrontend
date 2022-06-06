@@ -1,6 +1,6 @@
 .footer{
     background: #ffff ;
-    height: 40vh;
+    height: 100%;
     color: black;
     display: flex;
     flex-direction: column;
@@ -17,8 +17,8 @@
 .footer-agroup{
     margin-top: 20px;
     margin-bottom: 50px;
-    margin-right: 200px;
-    margin-left: 100px;
+    margin-right: 20%;
+    margin-left: 10%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -27,7 +27,7 @@
 }
 
 .footer-text{
-    margin-right: 400px;
+    margin-right: 40%;
     font-weight: 500;
     font-size: 10px;
     color: rgb(98, 98, 98);
@@ -35,7 +35,7 @@
 
 .footer-agroup-container{
     display: flex;
-    margin-left: -50px;
+    margin-left: 1%;
     margin-right: -100px;
 }
 
@@ -220,7 +220,7 @@
 @media all and (min-width: 768px) and (max-width: 1024px) { 
     .footer{
         background: #ffff ;
-        height: 40vh;
+        height: 100%;
         color: black;
         display: flex;
         flex-direction: column;
@@ -459,7 +459,7 @@
 @media all and (min-width: 480px) and (max-width: 768px) { 
     .footer{
         background: #ffff ;
-        height: 40vh;
+        height: 100%;
         color: black;
         display: flex;
         flex-direction: column;
@@ -722,7 +722,7 @@
 
     .footer{
         background: #ffff ;
-        height: 40vh;
+        height: 100%;
         color: black;
         display: flex;
         flex-direction: column;

@@ -1,6 +1,6 @@
 .data2{
     background: #040415 ;
-    height: 115vh;
+    height: 100%;
     color: #ffff;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 
 .data-titulo2{
     color:#f4511e;
-    margin-left: 200px;
+    margin-left: 11%;
     margin-top: 100px;
 }
 .data-titulo2 > h1{
@@ -101,7 +101,7 @@
     .data2{
         background: #040415 ;
         background-size: 50% 50%;
-        height: 125vh;
+        height: 100%;
         color: #ffff;
         display: flex;
         flex-direction: column;
@@ -208,7 +208,7 @@
 @media all and (min-width: 480px) and (max-width: 768px) { 
     .data2{
     background: #040415 ;
-    height: 225vh;
+    height: 100%;
     color: #ffff;
     display: flex;
     flex-direction: column;
@@ -338,7 +338,7 @@
 
     .data2{
         background: #040415 ;
-        height: 105vh;
+        height: 100%;
         color: #ffff;
         display: flex;
         flex-direction: column;

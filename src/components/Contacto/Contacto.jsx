@@ -1,12 +1,66 @@
-import React from 'react'
-import './contacto.css'
+import React, { useState } from "react";
+import "./contacto.css";
+import {useDispatch} from 'react-redux'
+import { useNavigate } from "react-router-dom";
+import { enviarEmail } from "../../redux/actions";
 
 
 const Contacto = () => {
+
+
+
+
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+
+
+  const [input, setInput]=useState({
+    name: "",
+    email: "",
+    message: ""
+    })
+
+
+
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      if (
+        input.name &&
+        input.email &&
+        input.message 
+      ) {
+        dispatch(enviarEmail(input));
+        alert("CORREO ENVIADO");
+
+        //ahora usamos nuestro hook setInput para limpiar nuestros campos
+        setInput({
+          name: "",
+          email: "",
+          message: ""
+        });
+        navigate("/");
+      } else {
+        alert("COMPLETA EL FORMULARIO");
+      }
+    }
+
+    function handleChange(e) {
+      setInput({
+        ...input,
+        [e.target.name]: e.target.value,
+      });
+      
+
+      console.log(input);
+    }
+
+
+
   return (
-    <div className="contacto" id='contactos'>
+    <div className="contacto" id="contactos">
       <div className="contacto-titulo">
-        <hr className="hr" />
+        <hr className="hr_metodologia" />
         <h1>CONTACTO</h1>
       </div>
       <div className="contacto-group">
@@ -19,14 +73,27 @@ const Contacto = () => {
             Tienes preguntas sobre la agencia o ¿Sólo quieres saber más sobre lo
             que hacemos? Escríbenos
           </p>
-          <input className='contacto-nombre' type="text" placeholder="Nombre" />
-          <input className='contacto-email' type="text" placeholder="Email" />
-          <input className='contacto-mensaje' type="text" placeholder="Mensaje" />
-          <button className='contacto-btn'>Enviar</button>
+          <form className="form" onSubmit={(e)=>handleSubmit(e)}>
+
+          <input onChange={(e) => handleChange(e)} className="contacto-nombre" type="text" placeholder="Nombre" name="name" value={input.name}/>
+          <input onChange={(e) => handleChange(e)} className="contacto-email" type="text" placeholder="Email" name="email" value={input.email}/>
+          <input
+          onChange={(e) => handleChange(e)}
+            className="contacto-mensaje"
+            type="text"
+            placeholder="Mensaje"
+            name="message"
+            value={input.message}
+            />
+
+            <input type="hidden" name="_next" value="http://localhost:3000" />
+            <input type="hidden" name="_captcha" value="false" />
+          <button className="contacto-btn" type="submit"  onClick={e=>handleSubmit(e)}>Enviar</button>
+            </form>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Contacto
+export default Contacto;

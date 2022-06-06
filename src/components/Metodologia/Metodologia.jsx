@@ -1,21 +1,19 @@
 import React from "react";
 import "./metodologia.css";
-import textura from "../../assets/svg/Textura.svg"
-
-
+import textura from "../../assets/svg/Textura.svg";
 
 const Metodologia = () => {
   return (
     <div className="metodologia" id="metodologia">
       <div className="metodologia-wrapper">
         <div className="metodologia-titulo">
-            <hr className="hr" />
+          <hr className="hr" />
           <h1>METODOLOGÍA</h1>
         </div>
         <img className="metodologia-textura" src={textura} alt="" />
         <div className="metodologia-group">
-          <div >
-            <h2 className="text-left" >
+          <div>
+            <h2 className="text-left">
               En cada etapa de nuestra colaboración, nunca dejamos de buscar
               formas de hacer mas por nuestros clientes
             </h2>
@@ -38,10 +36,12 @@ const Metodologia = () => {
                 <h1 className="metodologia_number">2</h1>
               </div>
               <div className="text2">
-                <p className="metodologia_text">Recopilación y extracción de datos.</p>
+                <p className="metodologia_text">
+                  Recopilación y extracción de datos.
+                </p>
               </div>
             </div>
-            <div className='metodologia-puntos primer-punto'>
+            <div className="metodologia-puntos primer-punto">
               <div>
                 <h1 className="metodologia_number">3</h1>
               </div>
@@ -52,7 +52,7 @@ const Metodologia = () => {
                 </p>
               </div>
             </div>
-            <div className='metodologia-puntos primer-punto'>
+            <div className="metodologia-puntos primer-punto">
               <div>
                 <h1 className="metodologia_number">4</h1>
               </div>
@@ -64,7 +64,7 @@ const Metodologia = () => {
                 </p>
               </div>
             </div>
-            <div className='metodologia-puntos primer-punto'>
+            <div className="metodologia-puntos primer-punto">
               <div>
                 <h1 className="metodologia_number">5</h1>
               </div>
@@ -76,21 +76,30 @@ const Metodologia = () => {
                 </p>
               </div>
             </div>
-            <div className='metodologia-puntos primer-punto'>
+            <div className="metodologia-puntos primer-punto">
               <div>
                 <h1 className="metodologia_number">6</h1>
               </div>
               <div className="text6">
-                <p className="metodologia_text">Presentación de insights y recomendaciones de negocio.</p>
+                <p className="metodologia_text">
+                  Presentación de insights y recomendaciones de negocio.
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div className="metodologia-text-footer">
           <p className="metodologia-text-footer-parrafo">
-           <p> La Ciencia de Datos requiere capabilities analíticos, pero también
-            una</p> <p>fuerte visión de negocio para poder extraer y transmitir
-            recomendaciones adaptadas</p> a las necesidades de la empresa.
+            <span>
+              {" "}
+              La Ciencia de Datos requiere capabilities analíticos, pero también
+              una
+            </span>{" "}
+            <span>
+              fuerte visión de negocio para poder extraer y transmitir
+              recomendaciones adaptadas
+            </span>{" "}
+            a las necesidades de la empresa.
           </p>
         </div>
       </div>
