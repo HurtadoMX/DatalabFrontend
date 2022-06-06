@@ -1,16 +1,18 @@
 .dataIcons-container-escritorio{
     background: #ffff;
-    height: 115vh;
+    height:100%;
     display: flex;
     flex-direction: column;
 }
 
 .dataIcons-container-escritorio .dataIcons-group1{
-    margin-top: 100px;
-    margin-left: 200px;
+
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 30%;
     display: grid;
-    grid-template-columns: 250px 200px 200px;
-    grid-gap: 150px;
+    grid-template-columns: 40% 40% 40%;
+    grid-gap: 5%;
 }
 
 
@@ -105,7 +107,7 @@
     .dataIcons-container-mobile{
         width: 100%;
         background: #ffff;
-        height: 230vh;
+        height:100%;
         display: flex;
         flex-direction: column;
     }
@@ -220,7 +222,7 @@
     .dataIcons-container-mobile{
         width: 100%;
         background: #ffff;
-        height: 125vh;
+        height:100%;
         display: flex;
         flex-direction: column;
     }
@@ -230,9 +232,10 @@
     }
     
     .dataIcons-container-mobile .dataIcons-group1{
+        margin-bottom: 100%;
         display: flex;
  flex-direction: column;
-        margin-left: 210px;
+        margin-left: 50%;
     }
 
     .dataIcons-container-mobile .icono-responsive{
@@ -270,11 +273,12 @@
    .dataIcons-container-mobile .dataIcons-group1  .icono-item1 .item .dataIcons-parrafo{
         
     margin-top: -15px;
+        margin-bottom: 100%;
         width: 300px;
-        margin-bottom: 20px;
 
     }
    .dataIcons-container-mobile .dataIcons-group1  .icono-item1 .item .dataIcons-parrafo > p{
+       
     letter-spacing: 2px;    
         margin-left: 90px;
         margin-top: 10px;
@@ -286,9 +290,9 @@
 
 
     .dataIcons-container-mobile .dataIcons-group1  .icono-item2 .item .dataIcons-parrafo{
+        margin-bottom: 100%;
         margin-top: -15px;
         width: 300px;
-        margin-bottom: 20px;
     }
    .dataIcons-container-mobile .dataIcons-group1  .icono-item2 .item .dataIcons-parrafo > p{
     letter-spacing: 2px;    
@@ -302,6 +306,7 @@
 
 
     .dataIcons-container-mobile .dataIcons-group1  .icono-item3 .item .dataIcons-parrafo{
+        
         margin-top: -15px;
         width: 300px;
     }

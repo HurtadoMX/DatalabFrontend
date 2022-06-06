@@ -1,6 +1,6 @@
 .data{
     background: #040415 ;
-    height: 105vh;
+    height: 100%;
     color: #ffff;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 
 .data-titulo{
     color:#f4511e;
-    margin-left: 230px;
+    margin-left: 11%;
     margin-top: 100px;
 }
 .data-titulo > h1{
@@ -92,7 +92,7 @@
 @media all and (min-width: 768px) and (max-width: 1024px) { 
     .data{
     background: #040415 ;
-    height: 140vh;
+    height: 100%;
     color: #ffff;
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@
 @media all and (min-width: 480px) and (max-width: 768px) { 
     .data{
     background: #040415 ;
-    height: 185vh;
+    height: 100%;
     color: #ffff;
     display: flex;
     flex-direction: column;
@@ -304,7 +304,7 @@ margin-top: 100px;
 
     .data{
         background: #040415 ;
-        height: 105vh;
+        height: 100%;
         color: #ffff;
         display: flex;
         flex-direction: column;

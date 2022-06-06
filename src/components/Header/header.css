@@ -37,8 +37,8 @@
    .menu {
     display: flex;
     gap: 1px;
-    font-size: 10px;
-    margin-right: 200px;
+    font-size: 15px;
+    margin-right: 0px;
     font-weight: 500;
    }
    .menu li:hover {

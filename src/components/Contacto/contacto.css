@@ -1,6 +1,6 @@
 .contacto{
     background: #040415 ;
-    height: 110vh;
+    height: 100%;
     color: #ffff;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 
 .contacto-titulo{
     color:#f4511e;
-    margin-left: 230px;
+    margin-left: 11%;
     margin-top: 100px;
 }
 
@@ -18,6 +18,7 @@
 }
 
 .contacto-group{
+    margin-bottom: 10%;
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -60,12 +61,12 @@
 
 }
 
-.contacto-formulario > input{
+.contacto-formulario .form > input{
     margin-bottom: 20px;
     font-weight: 300;
 }
 
-.contacto-formulario > input[type=text]{
+.contacto-formulario .form > input[type=text]{
     font-weight: 400;
     width: 100%;
     padding: 12px 20px;
@@ -73,19 +74,22 @@
     box-sizing: border-box;
 }
 
-.contacto-formulario > button{
+.contacto-formulario .form > button{
     font-weight: 500;
+    width: 400px;
+    margin-top: 10px;
+    height: 40px;
 }
 
 .contacto-nombre{
     border: 0;
-    border-radius:  10px;
+    border-radius:  100px;
 
     height: 40px;
 }
 .contacto-email{
     border: 0;
-    border-radius: 10px;
+    border-radius: 100px;
 
     height: 40px;
 }
@@ -113,7 +117,7 @@
 @media all and (min-width: 768px) and (max-width: 1024px) { 
     .contacto{
         background: #040415 ;
-        height: 130vh;
+        height: 100%;
         color: #ffff;
         display: flex;
         flex-direction: column;
@@ -173,12 +177,12 @@
     
     }
     
-    .contacto-formulario > input{
+    .contacto-formulario .form > input{
         margin-bottom: 20px;
         font-weight: 300;
     }
     
-    .contacto-formulario > input[type=text]{
+    .contacto-formulario .form > input[type=text]{
         font-weight: 400;
         width: 100%;
         padding: 12px 20px;
@@ -186,8 +190,11 @@
         box-sizing: border-box;
     }
     
-    .contacto-formulario > button{
+    .contacto-formulario .form > button{
         font-weight: 500;
+        width: 400px;
+    margin-top: 10px;
+    height: 40px;
     }
     
     .contacto-nombre{
@@ -253,7 +260,7 @@
     .contacto{
         width: 100%;
         background: #040415 ;
-        height: 180vh;
+        height: 100%;
         color: #ffff;
         display: flex;
         flex-direction: column;
@@ -317,12 +324,12 @@
     
     }
     
-    .contacto-formulario > input{
+    .contacto-formulario .form > input{
         margin-bottom: 20px;
         font-weight: 300;
     }
     
-    .contacto-formulario > input[type=text]{
+    .contacto-formulario .form > input[type=text]{
         font-size: 20px;
         font-weight: 400;
         width: 100%;
@@ -331,9 +338,12 @@
         box-sizing: border-box;
     }
     
-    .contacto-formulario > button{
+    .contacto-formulario .form > button{
         font-size: 20px;
         font-weight: 500;
+        width: 500px;
+    margin-top: 10px;
+    height: 40px;
     }
     
     .contacto-nombre{
@@ -395,7 +405,7 @@
     .contacto{
         width: 100%;
         background: #040415 ;
-        height: 130vh;
+        height: 100%;
         color: #ffff;
         display: flex;
         flex-direction: column;
@@ -458,12 +468,12 @@
     
     }
     
-    .contacto-formulario > input{
+    .contacto-formulario .form > input{
         margin-bottom: 20px;
         font-weight: 300;
     }
     
-    .contacto-formulario > input[type=text]{
+    .contacto-formulario .form > input[type=text]{
         font-weight: 400;
         width: 100%;
         padding: 12px 20px;
@@ -471,8 +481,11 @@
         box-sizing: border-box;
     }
     
-    .contacto-formulario > button{
+    .contacto-formulario .form > button{
         font-weight: 500;
+        width: 300px;
+    margin-top: 10px;
+    height: 40px;
     }
     
     .contacto-nombre{
