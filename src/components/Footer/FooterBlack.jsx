@@ -24,7 +24,7 @@ const FooterBlack = () => {
         <div className="footer-agroup-container">
           <div className="footer-item1">
             <h2 className="h2">Soporte</h2>
-            <h3 className="h3"><a href="mailto:hurtado_mxm@outlook.com?Subject=Me%20interesa%20saber%20mas%20de%20datalabMx">Contacto: soporte@datalabmx.com</a></h3>
+            <h3 className="h3"><a href="mailto:soporte@datalabmx.com?Subject=Me%20interesa%20saber%20mas%20de%20datalabMx">Contacto: soporte@datalabmx.com</a></h3>
             <h3 className="h3"><a href="https://api.whatsapp.com/send?phone=525540976472&text=Hola DatalabMX, Necesito mas informacion!">Telefono: +52 554097 6472</a></h3>
           </div>
           {/* <div className="footer-item2">
