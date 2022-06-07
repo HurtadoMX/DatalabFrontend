@@ -145,27 +145,33 @@ input[type=checkbox]:checked ~ .menu{
    .menu { 
       display:none;
       position: absolute;
-      background-color:#f4511e;
+      background-color:#e48e74;
       top: 120px;
-      right: -200px;
+      right: 0%;
       left: 0px;
       text-align: center;
       padding: 20px 0;
       z-index: -1;
       font-weight: 600;
+
      }
+
+
+
      .menu li:hover {
-     
       display: inline-block;
-      background-color:#f4511e;
+      background-color:black;
       transition: 0.3s ease;
      }
      .menu li + li {
       margin-top: 12px;
+
      }
      .menu li {
         padding: 5px 14px;
+        
        }
+
        .nav-links a {
         color: #fff;
        }
@@ -176,7 +182,10 @@ input[type=checkbox]:checked ~ .menu{
      }
      input[type=checkbox]:checked ~ .menu{
       display: block;
+      /* visibility: collapse; */
+
      }
+     
      .hamburger {
       display: block;
      }
