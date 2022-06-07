@@ -7,7 +7,7 @@ const Metodologia = () => {
     <div className="metodologia" id="metodologia">
       <div className="metodologia-wrapper">
         <div className="metodologia-titulo">
-          <hr className="hr" />
+          <hr className="hr_metodologia" />
           <h1>METODOLOGÍA</h1>
         </div>
         <img className="metodologia-textura" src={textura} alt="" />

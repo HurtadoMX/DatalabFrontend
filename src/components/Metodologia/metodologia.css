@@ -33,7 +33,7 @@
 }
 .hr{
     position: absolute;
-    margin-top: -10px;
+    margin-top: 10%;
     left: 10%;
     height:4%;
     width:.1vw;

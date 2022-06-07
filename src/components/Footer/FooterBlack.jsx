@@ -25,7 +25,7 @@ const FooterBlack = () => {
           <div className="footer-item1">
             <h2 className="h2">Soporte</h2>
             <h3 className="h3"><a href="mailto:hurtado_mxm@outlook.com?Subject=Me%20interesa%20saber%20mas%20de%20datalabMx">Contacto: soporte@datalabmx.com</a></h3>
-            <h3 className="h3"><a href="https://api.whatsapp.com/send?phone=529611516271&text=Hola DatalabMX, Necesito mas informacion!">Telefono: +52 554097 6472</a></h3>
+            <h3 className="h3"><a href="https://api.whatsapp.com/send?phone=525540976472&text=Hola DatalabMX, Necesito mas informacion!">Telefono: +52 554097 6472</a></h3>
           </div>
           {/* <div className="footer-item2">
             <h2 className="h2">Faq</h2>
@@ -40,7 +40,7 @@ const FooterBlack = () => {
             <div className="footer-primer-item-img">
               {/* /* Con mensaje predefinido */}
               {/* <a href="https://api.whatsapp.com/send?phone=0123456789&text=Hola DatalabMX, Nececito mas informacion!">Envíanos un mensaje de WhatsApp</a> */}
-              <a href="tel:5540976472">
+              <a href="tel:5568198017">
                 <img
                   style={{ width: "40px" }}
                   src={Telefono}
@@ -50,13 +50,13 @@ const FooterBlack = () => {
             </div>
             <div className="footer-primer-item-text">
               <h4>Teléfono</h4>
-              <h2>55 - 4097 - 6472</h2>
+              <h2>55 - 6819 - 8017</h2>
             </div>
           </div>
           <div className="footer-segundo-item">
             <div className="footer-segundo-item-img">
               {" "}
-              <a href="mailto:hurtado_mxm@outlook.com?Subject=Me%20interesa%20saber%20mas%20de%20datalabMx">
+              <a href="mailto:info@datalabmx.com?Subject=Me%20interesa%20saber%20mas%20de%20datalabMx">
                 <img style={{ width: "40px" }} src={Mail} alt="Mail" />
               </a>
             </div>
@@ -90,8 +90,8 @@ const FooterBlack = () => {
           <div className="footer-agroup-container-mobile">
             <div className="footer-item1">
               <h2 className="h2">Soporte</h2>
-              <h3 className="h3"><a href="mailto:hurtado_mxm@outlook.com?Subject=Me%20interesa%20saber%20mas%20de%20datalabMx">Contacto: soporte@datalabmx.com</a></h3>
-              <h3 className="h3"><a href="https://api.whatsapp.com/send?phone=529611516271&text=Hola DatalabMX, Necesito mas informacion!">Telefono: +52 554097 6472</a></h3>
+              <h3 className="h3"><a href="mailto:soporte@datalabmx.com?Subject=Me%20interesa%20saber%20mas%20de%20datalabMx">Contacto: soporte@datalabmx.com</a></h3>
+              <h3 className="h3"><a href="https://api.whatsapp.com/send?phone=525540976472&text=Hola DatalabMX, Necesito mas informacion!">Telefono: +52 554097 6472</a></h3>
             </div>
             {/* <div className="footer-item2">
               <h2 className="h2">Faq</h2>
@@ -112,7 +112,7 @@ const FooterBlack = () => {
             alt="redes"
             className="redes"
           /> */}
-          <a href="https://api.whatsapp.com/send?phone=529611516271&text=Hola DatalabMX, Necesito mas informacion!">
+          <a href="https://api.whatsapp.com/send?phone=525540976472&text=Hola DatalabMX, Necesito mas informacion!">
 
           <img
             style={{
