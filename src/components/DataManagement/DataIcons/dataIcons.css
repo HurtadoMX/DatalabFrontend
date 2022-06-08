@@ -49,19 +49,17 @@
     margin-top: 45px;
 }
 .dataIcons-parrafo > p{
-    font-family: Avenier Next Medium;
+    font-family: Avenir Next Medium;
     font-size: 16px;
     color: #bebebe;
-    font-weight: 600;
-}
+    }
 
 .dataIcons-parrafo2{
 }
 .dataIcons-parrafo2 > p{
-    font-family: Avenier Next Medium;
+    font-family: Avenir Next Medium;
     font-size: 16px;
     color: #bebebe;
-    font-weight: 600;
 }
 
 .dataIcons-container2{
@@ -139,14 +137,12 @@
 }
 .dataIcons-parrafo > p{
     color: gray;
-    font-weight: 600;
 }
 
 .dataIcons-parrafo2{
 }
 .dataIcons-parrafo2 > p{
     color: gray;
-    font-weight: 600;
 }
 .derecha-data{
     display: none;
@@ -213,8 +209,9 @@
         margin-right: 30px;
     }
     .icono-responsive > h2{
+        font-family: Avenir Next Bold;
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .icono-item1{
@@ -246,7 +243,9 @@
         width: 500px;
     }
     .dataIcons-parrafo > p{
-        font-size: 20px;
+        font-family: Avenir Next Medium;
+
+        font-size: 16px;
         margin-right: 10%;
         margin-left: 25%;
         margin-top: -30px;
@@ -257,12 +256,12 @@
     .dataIcons-parrafo2{
     }
     .dataIcons-parrafo2 > p{
-        font-size: 20px;
+        font-family: Avenir Next Medium;
+        font-size: 16px;
         margin-right: 10%;
         margin-left: 25%;
         margin-top: -30px;
         color: #bebebe;
-        font-weight: 600;
     }
     .derecha-data{
         display: none;
@@ -291,10 +290,18 @@
 
 @media all and (max-width: 682px) { 
     .dataIcons-container2 .dataIcons-group1{
+        margin-top: 100px;
         margin-bottom: 200%;
         margin-left: 0px;
-        margin-right: 0px;
+        
        
+    }
+    .dataIcons-container2 .dataIcons-group1{
+        margin-bottom: 150%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 75%;
+        margin-left: 40%;
     }
     .derecha-data{
         display: none;
@@ -305,12 +312,67 @@
     
 }
 
+@media all and (max-width: 608px) { 
+    .dataIcons-container2 .dataIcons-group1{
+        margin-top: 100px;
+        margin-bottom: 200%;
+        margin-left: 0px;
+        
+       
+    }
+    .dataIcons-container2 .dataIcons-group1{
+        margin-bottom: 170%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 75%;
+        margin-left: 40%;
+    }
+    .derecha-data{
+        display: none;
+    }
+    .derecha-data2{
+        display: none;
+    }
+    
+}
+
+
 @media all and (max-width: 587px) { 
     .dataIcons-container2 .dataIcons-group1{
         margin-bottom: 240%;
         margin-left: 0px;
         margin-right: 0px;
        
+    }
+    .dataIcons-container2 .dataIcons-group1{
+        margin-bottom: 170%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 75%;
+        margin-left: 40%;
+    }
+    .derecha-data{
+        display: none;
+    }
+    .derecha-data2{
+        display: none;
+    }
+    
+}
+
+@media all and (max-width: 540px) { 
+    .dataIcons-container2 .dataIcons-group1{
+        margin-bottom: 240%;
+        margin-left: 0px;
+        margin-right: 0px;
+       
+    }
+    .dataIcons-container2 .dataIcons-group1{
+        margin-bottom: 190%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 75%;
+        margin-left: 40%;
     }
     .derecha-data{
         display: none;
@@ -370,6 +432,7 @@
         margin-right: 30px;
     }
     .icono-responsive > h2{
+        font-family: Avenir Next Bold;
         margin-top: 10px;
         font-size: 20px;
     }
@@ -409,24 +472,24 @@
         width: 300px;
     }
     .dataIcons-parrafo > p{
+        font-family: Avenir Next Medium;
         width: 80%;
         font-size: 20px;
         margin-right: 10%;
         margin-left: 30%;
         margin-top: -30px;
         color: #bebebe;
-        font-weight: 600;
     }
     
     .dataIcons-parrafo2{
     }
     .dataIcons-parrafo2 > p{
+        font-family: Avenir Next Medium;
         font-size: 20px;
         margin-right: 10%;
         margin-left: 25%;
         margin-top: -30px;
         color: #bebebe;
-        font-weight: 600;
     }
     
     
@@ -443,4 +506,31 @@
         margin-right: 0px;
        
     }
+   
+}
+
+
+
+@media all and (max-width: 420px) { 
+    .dataIcons-container2 .dataIcons-group1{
+        margin-top: 100px;
+        margin-bottom: 200%;
+        margin-left: 0px;
+        
+       
+    }
+    .dataIcons-container2 .dataIcons-group1{
+        margin-bottom: 200%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 75%;
+        margin-left: 40%;
+    }
+    .derecha-data{
+        display: none;
+    }
+    .derecha-data2{
+        display: none;
+    }
+    
 }

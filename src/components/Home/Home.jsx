@@ -51,19 +51,19 @@ const Home = () => {
        <Servicios />
      <Clientes />
       <DataManagement />
-      <DataIcons />
+     <DataIcons />
 
-     <DataScience />
+      <DataScience />
        <DataScienceIcons />
-      <DataVisualization />
-      <DataVisualizationIcons />
+     <DataVisualization />
+       <DataVisualizationIcons />
 
       <Contacto />
      <FooterBlack /> 
      <Button>
      <FaArrowCircleUp onClick={scrollToTop} 
      style={{display: visible ? 'inline' : 'none'}} />
-    </Button>
+    </Button> 
     </div>
   );
 };
