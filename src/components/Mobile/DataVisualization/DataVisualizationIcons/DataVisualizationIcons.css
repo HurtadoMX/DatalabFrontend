@@ -68,6 +68,33 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (min-width: 768px) and (max-width: 1024px) { 
     .dataIcons-container-visual{
         margin-left: 0px;
@@ -82,7 +109,7 @@
         margin-top: 80px;
         margin-left: 200px;
         display: grid;
-        grid-template-columns: 170px 170px 170px;
+        grid-template-columns: 50%;
         grid-gap: 220px;
     }
     
@@ -96,6 +123,39 @@
     .derecha-visual2{
       display: none;
     }
+
+    
+    
+    .dataIcons-container-visual .dataIcons-group1 .item .dataIcons-image{
+        margin-bottom: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+    .dataIcons-container-visual .item > h2{
+       font-family: Avenir Next Bold;
+        margin-bottom: 20px;
+        font-size: 20px;
+        
+    }
+    
+    
+    
+    .dataIcons-container-visual .dataIcons-group1 .item .dataIcons-parrafo{
+        margin-top: 45px;
+    }
+    .dataIcons-container-visual .dataIcons-group1 .item .dataIcons-parrafo > p{
+        font-family: Avenir Next Medium;
+        color: #bebebe;
+        font-size: 16px;
+    }
+    
+    
+     .dataIcons-container2-visual{
+        display: none;
+    }
+    
 }
 
 
@@ -132,7 +192,8 @@
     }
     
     .dataIcons-container2-visual .dataIcons-group1{
-        margin-bottom: 30%;
+        margin-bottom: 40%;
+        margin-top: 15%;
         display: flex;
         flex-direction: column;
         margin-left: 300px;
@@ -147,6 +208,7 @@
         margin-right: 30px;
     }
    .dataIcons-container2-visual  .dataIcons-group1 .icono-item1 .icono-responsive > h2{
+    font-family: Avenir Next Bold;
     letter-spacing: 2px;    
     margin-top: 10px;
         font-size: 25px;
@@ -168,10 +230,11 @@
 
     }
    .dataIcons-container2-visual .dataIcons-group1  .icono-item1 .item .dataIcons-parrafo > p{
+    font-family: Avenir Next Medium;
     letter-spacing: 2px;    
     font-size: 20px;
         margin-left: 120px;
-        margin-top: 10px;
+        margin-top: 50px;
         color: gray;
         font-weight: 600;
     }

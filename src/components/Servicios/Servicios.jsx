@@ -20,8 +20,8 @@ const Servicios = () => {
         <hr className="hr_metodologia" />
         <h1>SERVICIOS</h1>
       </div>
-      <img className="servicios-image-puntos" src={textura} alt="" />
       <div className="servicios-group">
+      <img className="servicios-image-puntos" src={textura} alt="" />
         <h2>Evaluamos, asesoramos y optimizamos en cada fase</h2>
         <p>
           <span>En cada etapa de nuestra colaboración,</span>{" "}
@@ -32,7 +32,7 @@ const Servicios = () => {
       <div className="servicios-items">
         <div className="servicios-primer-item">
           <img className="servicios-svg1" src={Data_Management} alt="" />
-          <h2>DATA MANEGEMENT</h2>
+          <h2>DATA MANAGEMENT</h2>
           <p>
             <span>Te ayudamos a integrar,</span> estructurar y limpiar tus datos...
           </p>
@@ -54,7 +54,7 @@ const Servicios = () => {
           <div className="item-separados1">
             <img src={Data_Management} alt="" />
             <h2>
-              <p>DATA</p> MANEGEMENT
+              <p>DATA</p> MANAGEMENT
             </h2>
           </div>
           <div className="servicios-primer-item1">

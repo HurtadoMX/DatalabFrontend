@@ -69,7 +69,7 @@ const Contacto = () => {
 
   return (
     <>
-    <img className="derecha-negra" src={lateral} alt="" />
+    {/* <img className="derecha-negra" src={lateral} alt="" /> */}
     <div className="contacto" id="contactos">
       <div className="contacto-titulo">
         <hr className="hr_metodologia" />
@@ -151,6 +151,7 @@ const Contacto = () => {
 export default Contacto;
 
 const ContenedorBotones = styled.div`
+font-family: Avenir Next Bold;
 	padding: 40px;
 	display: flex;
 	flex-wrap: wrap;
@@ -159,6 +160,7 @@ const ContenedorBotones = styled.div`
 `;
 
 const BotonModal = styled.button`
+font-family: Avenir Next Bold;
 display: block;
 padding: 10px 30%;
 border-radius: 100px;
@@ -176,6 +178,7 @@ transition: .3s ease all;
 `;
 
 const Boton = styled.button`
+font-family: Avenir Next Bold;
 	display: block;
 	padding: 10px 55%;
 	border-radius: 100px;
@@ -193,17 +196,20 @@ const Boton = styled.button`
 `;
 
 const Contenido = styled.div`
+font-family: Avenir Next Bold;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 	h1 {
+    font-family: Avenir Next Bold;
 		font-size: 42px;
 		font-weight: 700;
 		margin-bottom: 10px;
 	}
 
 	p {
+    font-family: Avenir Next Regular;
 		font-size: 18px;
 		margin-bottom: 20px;
 	}

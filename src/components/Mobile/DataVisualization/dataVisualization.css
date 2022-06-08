@@ -12,7 +12,7 @@
     margin-top: 100px;
 }
 .data-titulo3 > h1{
-    font-family: "Avenir Next Medium";
+    font-family: Avenir Next Medium;
     font-size: 31px;
     letter-spacing: 2px;
     font-weight: 400;
@@ -55,14 +55,14 @@
 }
 
 .data-group-visual .data-group-1 > h2{
-   font-family: "Avenir Next Regular";
+   font-family: Avenir Next Regular;
     width: 500px;
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 4px;
 }
 .data-group-visual .data-group-1 > h3{
-    font-family: "Avenir Next Regular";
+    font-family: Avenir Next Regular;
     margin-top: 10px;
     font-size: 35px;
     font-weight: 400;
@@ -81,7 +81,7 @@
     margin-top: 20px;
     max-width: 500px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
@@ -135,8 +135,8 @@
     .data-group-visual{
         margin-top: 10px;
         margin-bottom: 100px;
-        margin-left: 200px;
-        margin-right: 100px;
+        margin-left: 25%;
+        margin-right: 20%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -145,7 +145,7 @@
     }
     
     .data-group-visual .data-group-1{
-        margin-right: 70px;
+        margin-right: 5%;
         
         display: flex;
         flex-direction: column;
@@ -182,8 +182,7 @@
         letter-spacing: 2px;
         margin-top: 20px;
         width: 380px;
-        font-weight: 400;
-        font-size: 15px;
+        font-size: 18px;
         margin-bottom: 30px;
     }
     
@@ -261,29 +260,29 @@ margin-top: 100px;
 .data-group-mobile-visual .data-group-1 .items-column > img{
     opacity: 0.2;
     filter: alpha(opacity=40);
-    margin-right: 50px;
+    margin-right: 10px;
     margin-top: 0px;
-    width: 300px;
-    height: 300px;
+    width: 40%;
+    height: 40%;    
 
 }
 
 .data-group-mobile-visual .data-group-1 .items-column > h3{
-    width: 500px;
+    max-width: 100%;
+    font-family: 'Avenir Next Regular';
     margin-top: 230px;
-    font-size: 30px;
-    font-weight: 400;
-    margin-left: 100px;
+    font-size: 35px;
+    margin-left: 10%;
     letter-spacing: 3px;
 
 }
 .data-group-mobile-visual .data-group-1 > h2{
-    width: 700px;
-    font-size: 40px;
-    font-weight: 600;
+    max-width: 80%;
+    font-family: 'Avenir Next Regular';
+    font-size: 50px;
     letter-spacing: 4px;
-    margin-left: 100px;
-    margin-top: -30px;
+    margin-left: 10%;
+    margin-top: 0px;
 }
 
 
@@ -294,21 +293,23 @@ margin-top: 100px;
 }
 
 .data-group-mobile-visual .data-group-2  .parrafo1{
+    font-family: Avenir Next Regular;
     letter-spacing: 3px;
     margin-top:50px;
     max-width: 500px;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 100px;
     margin-bottom: 20px;
 }
 
 .data-group-mobile-visual .data-group-2  .parrafo2{
+    font-family: Avenir Next Regular;
     letter-spacing: 3px;
     margin-top:20px;
     max-width: 500px;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 100px;
     margin-bottom: 30px;
 }
@@ -352,7 +353,7 @@ margin-top: 100px;
     }
     .data-titulo3 > h1{
         letter-spacing: 2px;
-        font-size: 30px;
+        font-size: 25px;
     
         font-weight: 400;;
     }
@@ -391,28 +392,29 @@ margin-top: 100px;
     .data-group-mobile-visual .data-group-1 .items-column > img{
         opacity: 0.2;
         filter: alpha(opacity=40);
-        margin-left: -50px;
-        margin-top: 30px;
-        width: 150px;
-        height: 150px;
+        margin-right: 10px;
+        margin-top: 0px;
+        width: 40%;
+        height: 40%;   
     
     }
     
     .data-group-mobile-visual .data-group-1 .items-column > h3{
-        margin-top: 150px;
-        font-size: 20px;
-        font-weight: 400;
-        margin-left: 55px;
-        letter-spacing: 3px;
+        max-width: 100%;
+    font-family: 'Avenir Next Regular';
+    margin-top: 150px;
+    font-size: 15px;
+    margin-left: 10%;
+    letter-spacing: 3px;
     
     }
     .data-group-mobile-visual .data-group-1 > h2{
-        font-size: 20px;
-    font-weight: 600;
+        max-width: 80%;
+    font-family: 'Avenir Next Regular';
+    font-size: 25px;
     letter-spacing: 4px;
-    margin-left: 55px;
-    margin-top: -10px;
-    width: 290px;
+    margin-left: 10%;
+    margin-top: 0px;
     }
     
     
@@ -423,20 +425,20 @@ margin-top: 100px;
     }
     
     .data-group-mobile-visual .data-group-2  .parrafo1{
+        font-family: Avenir Next Regular;
         letter-spacing: 3px;
     margin-top: 50px;
     max-width: 300px;
-    font-weight: 400;
     font-size: 15px;
     margin-left: 60px;
     margin-bottom: 20px;
     }
     
     .data-group-mobile-visual .data-group-2  .parrafo2{
+        font-family: Avenir Next Regular;
         letter-spacing: 3px;
     margin-top: 10px;
     max-width: 300px;
-    font-weight: 400;
     font-size: 15px;
     margin-left: 60px;
     margin-bottom: 30px;

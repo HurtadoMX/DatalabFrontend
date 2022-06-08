@@ -306,6 +306,7 @@ margin-left: 40%;
 `
 
 export const Container = styled.div`
+font-family: Avenir Next Bold;
 box-shadow: 0px 1px 10px black;
 margin-top: -80px;
   width: 100%;
@@ -316,6 +317,7 @@ margin-top: -80px;
 `;
 
 export const Wrapper = styled.div`
+font-family: Avenir Next Bold;
   width: 100%;
   max-width: 1300px;
   height: 100%;
@@ -326,6 +328,7 @@ export const Wrapper = styled.div`
 `;
 
 export const LogoContainer = styled.div`
+font-family: Avenir Next Bold;
   margin-left: 0.5rem;
   display: flex;
   align-items: center;
@@ -348,6 +351,7 @@ export const LogoContainer = styled.div`
 `;
 
 export const Menu = styled.ul`
+font-family: Avenir Next Bold;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -367,6 +371,7 @@ export const Menu = styled.ul`
 `;
 
 export const MenuItem = styled.li`
+font-family: Avenir Next Bold;
   height: 100%;
   @media screen and (max-width: 1170px) {
     width: 100%;
@@ -378,6 +383,7 @@ export const MenuItem = styled.li`
 `;
 
 export const MenuItemLink = styled.a`
+font-family: Avenir Next Bold;
   margin-right: 0%;
 
   display: flex;
@@ -388,7 +394,6 @@ export const MenuItemLink = styled.a`
   color: #000;
   font-family: sans-serif;
   font-size: 1rem;
-  font-weight: 600;
   cursor: pointer;
   transition: 0.5s all ease;
   &:hover {
@@ -416,7 +421,6 @@ export const MenuItemLink = styled.a`
   @media screen and (max-width: 1170px) {
     margin-left: -80%;
     width: 250%;
-    font-weight: 700;
     font-size: 30px;
     color: #000;
     div {
@@ -457,6 +461,7 @@ export const MenuItemLink = styled.a`
 `;
 
 export const MobileIcon = styled.div`
+font-family: Avenir Next Bold;
   display: none;
   @media screen and (max-width: 1170px) {
     display: flex;

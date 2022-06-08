@@ -71,6 +71,7 @@ const EncabezadoModal = styled.div`
 	border-bottom: 1px solid #E8E8E8;
 
 	h3 {
+		font-family: Avenir Next Bold;
 		font-weight: 500;
 		font-size: 16px;
 		color: #1766DC;
@@ -78,6 +79,7 @@ const EncabezadoModal = styled.div`
 `;
 
 const BotonCerrar = styled.button`
+font-family: Avenir Next Bold;
 	position: absolute;
 	top: 15px;
 	right: 20px;

@@ -24,7 +24,8 @@
 }
 
 .clientes-flex{
-    margin-left: -100px;
+    margin-left: 120px;
+    margin-right: 200px;
     margin-top: 100px;
     display: flex;
     margin-bottom: 30px;
@@ -37,8 +38,8 @@
 .clientes-imagen{
     margin-left: 100px;
 
-    max-width: 240px;
-    max-height: 70px;
+    max-width: 20%;
+    max-height: 30%;
 }
 
 .hr-items{
@@ -85,7 +86,6 @@
 
 
 
-
 @media all and (min-width: 768px) and (max-width: 1024px) { 
     .clientes{
         margin-left: 0px;
@@ -107,7 +107,8 @@
     }
     
     .clientes-flex{
-        margin-left: -100px;
+        margin-left: 120px;
+    margin-right: 200px;
         margin-top: 100px;
         display: flex;
         margin-bottom: 30px;
@@ -120,8 +121,8 @@
     .clientes-imagen{
         margin-left: 100px;
     
-        max-width: 140px;
-        max-height: 80px;
+        max-width: 20%;
+        max-height: 30%;
     }
     .derecha-clientes{
         display: none;
@@ -176,6 +177,7 @@
         margin-left: 0px;
         margin-right: 0px;
     display: flex;
+
     flex-direction: column;
     background-color: #ffff;
     margin-bottom: 100px;
@@ -201,17 +203,18 @@
 }
 
 .clientes-agroup2 .clientes-flex{
+    margin-bottom: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1%;
     margin-top: 70px;
-    margin-right: 100px;
-    margin-left: -40px;
+    margin-right: 20%;
+    margin-left: -4%;
 }
 
 .clientes-agroup2 .clientes-flex .clientes-imagen{
-    max-width: 250px;
-    height: 70px;
+    max-width: 100%;
+    height: 50%;
     
     margin-right: -10px;
     margin-bottom: 30px;
@@ -279,16 +282,18 @@
 }
 
 .clientes-agroup2 .clientes-flex{
+    margin-bottom: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1%;
     margin-top: 70px;
-    grid-gap: 30px;
-    margin-left: -90px;
+    margin-right: 20%;
+    margin-left: -20%;
 }
 
 .clientes-agroup2 .clientes-flex .clientes-imagen{
-    max-width: 180px;
-   height: 40px;
+    max-width: 100%;
+    height: 50%;
     
     margin-right: -90px;
     margin-bottom: 30px;
