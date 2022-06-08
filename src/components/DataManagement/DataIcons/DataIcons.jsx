@@ -5,9 +5,14 @@ import Data_Integration from "../../../assets/svg/Data Integration.svg";
 import Data_Quality from "../../../assets/svg/Data Quality.svg";
 import Data_Storage from "../../../assets/svg/Data Storage.svg";
 import Data_Analytics from "../../../assets/svg/Data Analytics.svg";
+import lateral from "../../../assets/png/LATERAL-DERECHA.png"
 
 const DataIcons = () => {
   return (
+    <>
+   
+          <img className="derecha-data" src={lateral} alt="" />
+      <img className="derecha-data2"src={lateral} alt="" />
     <div className="dataIcons">
       <div className="dataIcons-container">
         <div className="dataIcons-group1">
@@ -173,6 +178,7 @@ const DataIcons = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -23,6 +23,7 @@
 
 
 .dataIcons-container-visual .item > h2{
+   font-family: Avenir Next Bold;
     margin-bottom: 20px;
     font-size: 20px;
     
@@ -34,15 +35,26 @@
     margin-top: 45px;
 }
 .dataIcons-container-visual .dataIcons-group1 .item .dataIcons-parrafo > p{
-    color: gray;
-    font-weight: 600;
+    font-family: Avenir Next Medium;
+    color: #bebebe;
+    font-size: 16px;
 }
 
 
  .dataIcons-container2-visual{
     display: none;
 }
-
+.derecha-visual{
+    position: absolute;
+    width: 9%;
+    height: 75.2vh;
+}
+.derecha-visual2{
+    position: absolute;
+    margin-left: 91%;
+    width: 9%;
+    height: 75.2vh;
+}
 
 
 
@@ -70,6 +82,12 @@
     
      .dataIcons-container2-visual{
         display: none;
+    }
+    .derecha-visual{
+        display: none;
+    }
+    .derecha-visual2{
+      display: none;
     }
 }
 
@@ -146,6 +164,12 @@
         margin-top: 10px;
         color: gray;
         font-weight: 600;
+    }
+    .derecha-visual{
+        display: none;
+    }
+    .derecha-visual2{
+      display: none;
     }
     
 
@@ -226,6 +250,12 @@
         margin-top: 40px;
         color: gray;
         font-weight: 600;
+    }
+    .derecha-visual{
+        display: none;
+    }
+    .derecha-visual2{
+      display: none;
     }
     
 }

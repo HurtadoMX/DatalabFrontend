@@ -5,10 +5,14 @@ import Marketing from "../../../../assets/svg/Marketing.svg";
 import Retail from "../../../../assets/svg/Retail.svg";
 
 import './DataScienceIcons.css'
+import lateral from "../../../../assets/png/LATERAL-DERECHA.png"
 
 
 const DataScienceIcons = () => {
   return (
+    <>
+      <img className="derecha-icons" src={lateral} alt="" />
+      <img className="derecha-icons2" src={lateral} alt="" />
     <div className="dataIcons">
       <div className="dataIcons-container-escritorio">
         <div className="dataIcons-group1">
@@ -131,6 +135,8 @@ const DataScienceIcons = () => {
         </div>
       </div>
     </div>
+    </>
+
   );
 };
 

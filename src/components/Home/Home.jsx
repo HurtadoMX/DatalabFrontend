@@ -48,13 +48,13 @@ const Home = () => {
       <Header />
       <Introduccion />
        <Metodologia />
-      <Servicios />
+       <Servicios />
      <Clientes />
-       <DataManagement />
+      <DataManagement />
       <DataIcons />
 
-      <DataScience />
-     <DataScienceIcons />
+     <DataScience />
+       <DataScienceIcons />
       <DataVisualization />
       <DataVisualizationIcons />
 

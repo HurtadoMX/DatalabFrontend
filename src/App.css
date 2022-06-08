@@ -1,6 +1,21 @@
+@font-face {
+    font-family: Avenir Next Regular;
+    src: url(../public//fonts/AvenirNext-Regular-08.ttf);
+}
+@font-face {
+    font-family: Avenir Next DemiBold;
+    src: url(../public//fonts/AvenirNext-DemiBold-03.ttf);
+}
+@font-face {
+    font-family: Avenir Next Medium;
+    src: url(../public//fonts/AvenirNext-Medium-06.ttf);
+}
+@font-face {
+    font-family: Avenir Next Bold;
+    src: url(../public//fonts/AvenirNext-Bold-01.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Avenir Next', sans-serif;
    }
