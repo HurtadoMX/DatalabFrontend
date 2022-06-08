@@ -24,8 +24,8 @@ const FooterBlack = () => {
         <div className="footer-agroup-container">
           <div className="footer-item1">
             <h2 className="h2">Soporte</h2>
-            <h3 className="h3">Contacto: <a href="mailto:soporte@datalabmx.com?Subject=Hola%20DatalabMX%20, porfavor%20me%20podrias%20ayudar%20con%20soporte.">soporte@datalabmx.com</a></h3>
-            <h3 className="h3">Telefono: <a href="https://api.whatsapp.com/send?phone=525540976472&text=Hola DatalabMX, porfavor me podrias ayudar con soporte!">+52 554097 6472</a></h3>
+            <h3 className="h3">Contacto: <a className="color-a" href="mailto:soporte@datalabmx.com?Subject=Hola%20DatalabMX%20, porfavor%20me%20podrías%20ayudar%20con%20soporte.">soporte@datalabmx.com</a></h3>
+            <h3 className="h3">Telefono: <a className="color-a" href="https://api.whatsapp.com/send?phone=525540976472&text=Hola DatalabMX, porfavor me podrías ayudar con soporte!">+52 554097 6472</a></h3>
           </div>
           {/* <div className="footer-item2">
             <h2 className="h2">Faq</h2>
@@ -90,8 +90,8 @@ const FooterBlack = () => {
           <div className="footer-agroup-container-mobile">
             <div className="footer-item1">
               <h2 className="h2">Soporte</h2>
-              <h3 className="h3"><a href="mailto:soporte@datalabmx.com?Subject=Me%20interesa%20saber%20mas%20de%20datalabMx">Contacto: soporte@datalabmx.com</a></h3>
-              <h3 className="h3"><a href="https://api.whatsapp.com/send?phone=525540976472&text=Hola DatalabMX, Necesito mas informacion!">Telefono: +52 554097 6472</a></h3>
+              <h3 className="h3">Contacto: <a className="color-a" href="mailto:soporte@datalabmx.com?Subject=Hola%20DatalabMX%20, porfavor%20me%20podrías%20ayudar%20con%20soporte.">soporte@datalabmx.com</a></h3>
+              <h3 className="h3">Telefono: <a className="color-a" href="https://api.whatsapp.com/send?phone=525540976472&text=Hola DatalabMX, porfavor me podrías ayudar con soporte!">+52 554097 6472</a></h3>
             </div>
             {/* <div className="footer-item2">
               <h2 className="h2">Faq</h2>

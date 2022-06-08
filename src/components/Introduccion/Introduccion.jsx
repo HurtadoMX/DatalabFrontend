@@ -7,9 +7,14 @@ import INSIGHTS_ACCIONABLES from "../../assets/svg/INSIGHTS ACCIONABLES.svg";
 import Crecimiento_ROI from "../../assets/svg/Crecimiento ROI.svg";
 import "animate.css";
 import { Link } from "react-scroll";
+import lateral from "../../assets/png/LATERAL.png"
+import lateralDerecha from "../../assets/png/LATERAL-DERECHA.png"
 
 const Introduccion = () => {
   return (
+    <>
+      <img className="izquierda" src={lateral} alt="" />
+      <img className="derecha" src={lateralDerecha} alt="" />
     <div className="introduccion" id="inicio">
       <div className="introduccion-container">
         {/* <div className="introduccion-left"><h1>WE ARE DATALAB</h1></div> */}
@@ -22,9 +27,6 @@ const Introduccion = () => {
               alt="ICONO-DATALAB"
               className="animate__animated animate__backInLeft"
             />
-            <button>
-              <span>
-                {" "}
                 <Link
                   to="contactos"
                   spy={true}
@@ -32,10 +34,13 @@ const Introduccion = () => {
                   offset={-70}
                   duration={500}
                 >
+            <button className="button">
+              <span>
+                {" "}
                   Contacto
-                </Link>
               </span>
             </button>
+                </Link>
           </div>
 
           <div className="introduccion-segunda-parte">
@@ -49,20 +54,21 @@ const Introduccion = () => {
                 VALOR.
               </h1>
               <div className="copia-introduccion-primera-parte">
-                <button>
-                  <span>
-                    {" "}
-                    <Link
+              <Link
                       to="contactos"
                       spy={true}
                       smooth={true}
                       offset={-70}
                       duration={500}
                     >
+                       <button className="_button">
+                  <span>
+                    {" "}
+                   
                       Contacto
-                    </Link>
                   </span>
                 </button>
+                    </Link>
               </div>
             </div>
             <div className="introduccion-scroll animate__animated animate__backInDown">
@@ -96,7 +102,7 @@ const Introduccion = () => {
                   alt=""
                 />
                 <h3>
-                  <p>Metodología</p> Enfocada al Negocio
+                Metodología <p></p> Enfocada al Negocio
                 </h3>
 
                 <p>
@@ -114,7 +120,7 @@ const Introduccion = () => {
                   alt=""
                 />
                 <h3>
-                  <p>Metodología</p> Enfocada al Negocio
+                  <span>Metodología</span> Enfocada al Negocio
                 </h3>
               </div>
               <div className="introduccion-primer-item2">
@@ -133,7 +139,7 @@ const Introduccion = () => {
                 />
                 <h3>
                   {" "}
-                  <p>Insights</p> Accionables
+                  Insights <p></p> Accionables
                 </h3>
                 <p>
                   Construimos Insights, a partir de tus datos, para tomar las
@@ -167,7 +173,7 @@ const Introduccion = () => {
                   alt=""
                 />
                 <h3>
-                  <p>Foco en</p> Crecimiento & ROI
+                Foco en<p></p> Crecimiento & ROI
                 </h3>
                 <p>
                   Trabajamos con tu equipo para identificar oportunidades de
@@ -201,6 +207,7 @@ const Introduccion = () => {
         {/* <div className="introduccion-right"><h1>WE ARE DATALAB</h1></div> */}
       </div>
     </div>
+    </>
   );
 };
 

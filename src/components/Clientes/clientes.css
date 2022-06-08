@@ -12,6 +12,7 @@
     margin-top: 100px;
 }
 .clientes-titulo > h1{
+    font-family: "Avenir Next Medium";
     letter-spacing: 2px;
     font-weight: 400;
 }
@@ -53,6 +54,18 @@
 
 .clientes-agroup2{
     display: none;
+}
+
+.derecha-clientes{
+    position: absolute;
+    width: 9%;
+    height: 101.2vh;
+}
+.derecha-clientes2{
+    position: absolute;
+    margin-left: 91%;
+    width: 9%;
+    height: 101.2vh;
 }
 
 
@@ -103,6 +116,13 @@
         max-width: 140px;
         max-height: 80px;
     }
+    .derecha-clientes{
+        display: none;
+     }
+     .derecha-clientes2{
+        display: none;
+     }
+     
     
     .hr-items{
         
@@ -186,7 +206,15 @@
     
     margin-right: -10px;
     margin-bottom: 30px;
-}}
+}
+.derecha-clientes{
+    display: none;
+ }
+ .derecha-clientes2{
+    display: none;
+ }
+ 
+}
 
 
 
@@ -223,6 +251,14 @@
 
     font-weight: 400;;
 }
+
+.derecha-clientes{
+    display: none;
+ }
+ .derecha-clientes2{
+    display: none;
+ }
+ 
 
 .clientes-agroup{
     display: none;

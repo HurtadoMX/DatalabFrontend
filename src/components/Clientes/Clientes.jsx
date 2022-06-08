@@ -8,9 +8,13 @@ import Corporación_RICA from "../../assets/png/Corporación-RICA.png";
 import genomma_lab from "../../assets/png/genomma-lab.png";
 import GobCDMX from "../../assets/png/GobCDMX.png";
 import SACMEX from "../../assets/png/SACMEX.png";
+import lateral from "../../assets/png/LATERAL-DERECHA.png"
 
 const Clientes = () => {
   return (
+    <>
+    <img className="derecha-clientes" src={lateral} alt="" />
+      <img className="derecha-clientes2" src={lateral} alt="" />
     <div className="clientes" id="clientes">
       <div className="clientes-titulo">
         <hr className="hr_metodologia" />
@@ -64,6 +68,8 @@ const Clientes = () => {
         </div>
       </div>
     </div>
+    </>
+
   );
 };
 

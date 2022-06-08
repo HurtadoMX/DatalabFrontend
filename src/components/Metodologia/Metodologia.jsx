@@ -90,15 +90,11 @@ const Metodologia = () => {
         </div>
         <div className="metodologia-text-footer">
           <p className="metodologia-text-footer-parrafo">
-            <span>
-              {" "}
+          {" "}
               La Ciencia de Datos requiere capabilities analíticos, pero también
-              una
-            </span>{" "}
-            <span>
+              una<span> </span>{" "}
               fuerte visión de negocio para poder extraer y transmitir
-              recomendaciones adaptadas
-            </span>{" "}
+              recomendaciones adaptadas<span></span>{" "}
             a las necesidades de la empresa.
           </p>
         </div>

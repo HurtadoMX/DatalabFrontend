@@ -32,13 +32,16 @@
 }
 
 .servicios-titulo{
-    color:#f4511e;
+    color:#f15223;
+    
     margin-left: 11%;
     margin-top: 100px;
 }
 
 .servicios-titulo > h1{
+    font-size: 31px;
     letter-spacing: 2px;
+    font-family: Avenir Next Medium;
     font-weight: 400;
 }
 
@@ -50,23 +53,28 @@
     justify-items: center;
 }
 .servicios-group >h2{
+    font-family: Avenir Next Regular;
+
     letter-spacing: 2px;
 
     margin-left: 10%;
 margin-right: 10%;
     max-width: 100%;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 35px;
 }
 .servicios-group > p{
     margin-left: 10%;
     margin-right: 10%;
+    font-family: Avenir Next Regular;
     max-width: 100%;
+    font-size: 18px;
     letter-spacing: 2px;
     font-weight: 400;
 }
 
 .servicios-items{
+    margin-left: 5%;
     margin-top: 100px;
     display: flex;
     margin-bottom: 100px;
@@ -78,21 +86,25 @@ margin-right: 10%;
 
 .servicios-primer-item{
     margin-top: 23px;
-    max-width: 300px;
-    margin-right: 150px;
+    max-width: 50%;
+    margin-right: 3%;
 }
 .servicios-primer-item > h2{
-    font-size: 18px;
+    font-size: 17px;
+    font-family: Avenir Next Bold;
     margin-top: 0px;
     font-weight: 600;
 }
 .servicios-primer-item > p{
+    font-family: Avenir Next Regular;
+    font-size: 15px;
     margin-top: 50px;
     font-weight: 400;
 }
 .servicios-primer-item > a{
+    font-family: Avenir Next Medium;
+    font-size: 13px;
     color:#f4511e;
-    font-size: 30px;
     font-weight: 300;
 }
 
@@ -100,18 +112,22 @@ margin-right: 10%;
 
 
 .servicios-segundo-item{
-    max-width: 300px;
+  
     margin-top: -5px;
-    margin-right: 150px;
+    max-width: 50%;
+    margin-right: 3%;
 
 }
 .servicios-segundo-item > h2{
+    font-family: Avenir Next Bold;
     font-size: 18px;
     margin-top: 0px;
     font-weight: 600;
 }
 .servicios-segundo-item > p{
-    margin-top: 30px;
+    font-family: Avenir Next Regular;
+    font-size: 15px;
+    margin-top: 50px;
     font-weight: 400;
 }
 .servicios-segundo-item > a{
@@ -129,7 +145,8 @@ margin-right: 10%;
     position: absolute;
     margin-top: 20px;
     color:#f4511e;
-    font-size: 25px;
+    font-family: Avenir Next Medium;
+    font-size: 13px;
     cursor: pointer;
     font-weight: 400;
 }
@@ -140,16 +157,19 @@ margin-right: 10%;
 
 
 .servicios-tercer-item{
-    max-width: 300px;
-
+    max-width: 50%;
+    margin-right: 3%;
 }
 
 .servicios-tercer-item > h2{
+    font-family: Avenir Next Bold;
     margin-top: 0px;
     font-size: 18px;
     font-weight: 600;
 }
 .servicios-tercer-item > p{
+    font-family: Avenir Next Regular;
+    font-size: 15px;
     margin-top: 50px;
     font-weight: 400;
 }
@@ -197,7 +217,7 @@ display: none;
 }
 
 .arrow{
-    height: 40px;
+    height: 20px;
     position: absolute;
     margin-top: 1px;
     margin-left: 5px;
@@ -230,7 +250,7 @@ display: none;
     opacity:0.4;
     filter:alpha(opacity=40);
    z-index: 0;
-   margin-left: 61%;
+   margin-left: 60%;
    margin-right: 0px;
    margin-top: -800px;
    transform: scaleX(-1);
@@ -238,13 +258,15 @@ display: none;
 
 .servicios-titulo{
     color:#f4511e;
-    margin-left: 130px;
+    margin-left: 11%;
     margin-top: 110px;
 }
 
 .servicios-titulo > h1{
     letter-spacing: 2px;
     font-weight: 400;
+    font-family: "Avenir Next Medium";
+
 }
 
 .servicios-group{
@@ -256,27 +278,28 @@ display: none;
 }
 .servicios-group >h2{
     letter-spacing: 2px;
-
+    font-family: "Avenir Next Regular";
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 1%;
         max-width: 100%;
     font-weight: 400;
     font-size: 30px;
 }
 .servicios-group > p{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 10%;
     max-width: 100%;
     letter-spacing: 2px;
     font-size: 18px;
     font-weight: 400;
+    font-family: "Avenir Next Regular";
 }
 
 .servicios-items{
-    margin-left: 7%;
+    margin-left: 4%;
     margin-top: 100px;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 10%;
     align-items: center;
     justify-content: center;
     justify-items: baseline;
@@ -285,16 +308,17 @@ display: none;
 
 .servicios-primer-item{
     margin-top: 23px;
-    max-width: 280px;
+    max-width: 27%;
     margin-right: 30px;
 }
 .servicios-primer-item > h2{
+    
     font-size: 30px;
     margin-top: 0px;
     font-weight: 600;
 }
 .servicios-primer-item > p{
-    width: 250px;
+    width: 100%;
     font-size: 20px;
     margin-top: 50px;
     font-weight: 400;
@@ -306,7 +330,7 @@ display: none;
 }
 
 .servicios-segundo-item{
-    max-width: 280px;
+    max-width: 27%;
     margin-top: 5px;
     margin-right: 30px;
 
@@ -319,7 +343,7 @@ display: none;
     font-weight: 600;
 }
 .servicios-segundo-item > p{
-    width: 250px;
+    width: 100%;
     position: relative;
     margin-top: 100px;
     font-size: 20px;
@@ -345,7 +369,7 @@ display: none;
 
 
 .servicios-tercer-item{
-    max-width: 280px;
+    max-width: 27%;
 
 }
 
@@ -357,7 +381,7 @@ display: none;
     font-weight: 600;
 }
 .servicios-tercer-item > p{
-    width: 250px;
+    width: 100%;
     font-size: 20px;
     margin-top: 50px;
     font-weight: 400;
@@ -475,14 +499,14 @@ display: none;
 
 .servicios-titulo{
     color:#f4511e;
-    margin-left: 130px;
+    margin-left: 11%;
     margin-top: 110px;
 }
 
 .servicios-titulo > h1{
     letter-spacing: 2px;
     font-size: 30px;
-
+    font-family: "Avenir Next Medium";
     font-weight: 400;
 }
 
@@ -497,20 +521,22 @@ display: none;
 }
 .servicios-group >h2{
     letter-spacing: 2px;
-
-    margin-left: -150px;
+    font-family: "Avenir Next Regular";
+    margin-left: -20%;
     max-width: 500px;
     font-weight: 400;
     font-size: 30px;
 
 }
 .servicios-group > p{
+    font-family: serif;
     margin-top: 50px;
-    margin-left: -200px;
+    margin-left:-5%;
     max-width: 700px;
     letter-spacing: 2px;
     font-size: 22px;
     font-weight: 400;
+    font-family: "Avenir Next Regular";
 }
 
 .servicios-items{
@@ -666,7 +692,7 @@ margin-left: -60px;
     position: absolute;
     margin-top: 20px;
     color:#f4511e;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -761,14 +787,14 @@ margin-left: -60px;
     
     .servicios-titulo{
        color:#f4511e;
-        margin-left: 60px;
+        margin-left: 11%;
         margin-top: 100px;
     }
     
     .servicios-titulo > h1{
         letter-spacing: 2px;
         font-size: 25px;
-    
+        font-family: "Avenir Next Medium";
         font-weight: 400;
     }
     
@@ -784,25 +810,29 @@ margin-left: -60px;
     }
     .servicios-group >h2{
         letter-spacing: 2px;
-    
-        margin-left: -150px;
-        width: 300px;
+        margin-right: 10%;
+        font-family: "Avenir Next Regular";
+        margin-left: -200%;
+        max-width: 300%;
         font-weight: 400;
         font-size: 25px;
     }
     .servicios-group > p{
+        margin-right: 10%;
         font-size: 15px;
         margin-top: 40px;
         margin-left: -200px;
-        max-width: 300px;
+        max-width: 300%;
         letter-spacing: 2px;
         font-weight: 400;
+        font-family: "Avenir Next Regular";
     }
     
    
 .servicios-items{
+    margin-right: 10%;
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
@@ -838,25 +868,26 @@ margin-left: -60px;
    display: flex;
 }
 .item-separados1 > h2{
+    font-family: Avenir Next Bold;
     font-size: 25px;
    letter-spacing: 1px;
-   margin-left: 20px;
+   margin-left: 4%;
 }
 .item-separados1 > img{
-   width: 60px;
-   margin-left: 0px;
+   width: 20%;
+   margin-left: 1%;
 }
 
 .item1 .servicios-primer-item1 > p{
-    width: 250px;
-    margin-left: 80px;
+    width: 60%;
+    margin-left:23%;
     margin-top: 15px;
     font-size: 20px;
 }
 .item1 .servicios-primer-item1 > div > a{
     font-size: 20px;
     width: 100px;
-    margin-left: 80px;
+    margin-left: 19%;
 }
 
 .item2{
@@ -868,14 +899,14 @@ margin-left: -60px;
 display: flex;
 }
 .item-separados2 > h2{
+    font-family: Avenir Next Bold;
     font-size: 25px;
-
-letter-spacing: 1px;
-   margin-left: 20px;
+    letter-spacing: 1px;
+    margin-left: 4%;
 }
 .item-separados2 > img{
-width: 60px;
-margin-left: 0px;
+    width: 20%;
+    margin-left: 1%;
 }
 .item-separados2 > a{
 width: 50px;
@@ -885,15 +916,15 @@ margin-left: -60px;
 
 }
 .item2 .servicios-primer-item2 > p{
-    width: 250px;
-    margin-left: 80px;
+    width: 60%;
+    margin-left:23%;
     margin-top: 15px;
     font-size: 20px;
 }
 .item2 .servicios-primer-item2 > div > a{
     font-size: 20px;
     width: 100px;
-    margin-left: 80px;
+    margin-left: 19%;
 }
 
 
@@ -909,14 +940,14 @@ margin-bottom: 100px;
 display: flex;
 }
 .item-separados3 > h2{
+    font-family: Avenir Next Bold;
     font-size: 25px;
-
-letter-spacing: 1px;
-margin-left: 20px;
+    letter-spacing: 1px;
+    margin-left: 4%;
 }
 .item-separados3 > img{
-width: 60px;
-   margin-left: 0px;
+    width: 20%;
+    margin-left: 1%;
 }
 .item-separados3 > a{
 width: 50px;
@@ -924,15 +955,15 @@ margin-left: -60px;
 }
 
 .item3 .servicios-tercer-item3 > p{
-    width: 250px;
-    margin-left: 80px;
+    width: 60%;
+    margin-left:23%;
     margin-top: 15px;
     font-size: 20px;
 }
 .item3 .servicios-tercer-item3 > div > a{
     font-size: 20px;
     width: 100px;
-    margin-left: 80px;
+    margin-left: 19%;
 }
 
 
@@ -940,14 +971,14 @@ margin-left: -60px;
 
 
 .servicios-item-a > {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .servicios-item-a > a{
     position: absolute;
     margin-top: 20px;
     color:#f4511e;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 300;
 }
 

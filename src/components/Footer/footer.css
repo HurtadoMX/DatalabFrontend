@@ -27,19 +27,22 @@
 }
 
 .footer-text{
+    font-family: "Avenir Next Regular";
     margin-right: 40%;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 12px;
     color: rgb(98, 98, 98);
 }
 
 .footer-agroup-container{
+    width: 100%;
     display: flex;
     margin-left: 1%;
     margin-right: -100px;
 }
 
 .footer-item1{
+    
     margin-right: 50px;
     font-size: 10px;
 }
@@ -49,10 +52,16 @@
     margin-right: -50px;
 }
 .footer-item1 .h3{
+    
     font-weight: 400;
     max-width: 500px;
     margin-right: 3 0px;
 
+}
+
+.color-a{
+    text-decoration: none;
+    color: #f15223;
 }
 
 
@@ -111,18 +120,20 @@
 }
 
 .footer-primer-item .footer-primer-item-text > h4{
-    color: gray;
+    font-family: "Avenir Next Regular";
+    color: #9a9ea6;
     font-weight: 600;
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 11px;
 
 }
 .footer-primer-item .footer-primer-item-text > h2{
+   font-family: "Avenir Next DemiBold";
     margin-left: 20px;
-    color:#f4511e;
+    color:#f15223;
     font-weight: 600;
     max-width: 500px;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 10px;
     
 }
@@ -139,18 +150,20 @@
 }
 
 .footer-segundo-item .footer-segundo-item-text > h4{
-    color: gray;
+    font-family: "Avenir Next Regular";
+    color: #9a9ea6;
     font-weight: 600;
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 11px;
     
 }
 .footer-segundo-item .footer-segundo-item-text > h2{
+    font-family: "Avenir Next DemiBold";
     margin-left: 20px;
-    color:#f4511e;
+    color:#f15223;
     font-weight: 600;
     max-width: 500px;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 10px;
     
 }
@@ -164,18 +177,20 @@
     font-weight: 400;
 }
 .footer-tercer-item .footer-tercer-item-text > h4{
-    margin-left: 20px;
-    color: gray;
+    font-family: "Avenir Next Regular";
+    color: #9a9ea6;
     font-weight: 600;
-    font-size: 10px;
+    margin-left: 20px;
+    font-size: 11px;
 
 }
 .footer-tercer-item .footer-tercer-item-text > h2{
+    font-family: "Avenir Next DemiBold";
     margin-left: 20px;
-    color:#f4511e;
+    color:#f15223;
     font-weight: 600;
     max-width: 500px;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 10px;
     
 }
@@ -185,7 +200,7 @@
     max-width: 400px;
 }
 .footer-derechos > h6{
-    color: gray;
+    color: #9a9ea6;
     font-size: .1ex;
     font-weight: 300;
 }
@@ -198,7 +213,9 @@
     font-size: 5px;
     font-weight: 400;
 }
-
+.redes{
+    margin-left: 400%;
+}
 
 
 
@@ -672,8 +689,9 @@
 
 
     .redes{
-        margin-top: -100px !important;
-        margin-bottom: 30px !important;
+        margin-bottom: 170px;
+        margin-top: -500px !important;
+        margin-left: 60%;
     }
     
     .footer-derechos{
@@ -768,6 +786,7 @@
 
     
     .footer-item1{
+        margin-left: 17%;
         margin-right: 30px;
     }
     .footer-item1 .h2{
@@ -924,11 +943,11 @@
     
 
 
-    .redes{
-        margin-top: -100px !important;
-        margin-bottom: 30px !important;
+      .redes{
+        margin-bottom: 170px;
+        margin-top: -500px !important;
+        margin-left: 60%;
     }
-    
     .footer-derechos{
         margin-top: -90px;
         max-width: 400px;

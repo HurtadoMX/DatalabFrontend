@@ -300,7 +300,7 @@ const Header = () => {
 
 export const IMG = styled.img`
 
-margin-left: 50%;
+margin-left: 40%;
   width: 200px;
   height: 50px;
 `
@@ -352,7 +352,7 @@ export const Menu = styled.ul`
   display: flex;
   justify-content: space-between;
   list-style: none;
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1170px) {
     background-color: #f4511e;
     position: absolute;
     top: 100px;
@@ -368,7 +368,7 @@ export const Menu = styled.ul`
 
 export const MenuItem = styled.li`
   height: 100%;
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1170px) {
     width: 100%;
     height: 70px;
     display: flex;
@@ -413,7 +413,7 @@ export const MenuItemLink = styled.a`
       margin-right: 0.5rem;
     }
   }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1170px) {
     margin-left: -80%;
     width: 250%;
     font-weight: 700;
@@ -458,7 +458,7 @@ export const MenuItemLink = styled.a`
 
 export const MobileIcon = styled.div`
   display: none;
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1170px) {
     display: flex;
     align-items: center;
     cursor: pointer;

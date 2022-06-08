@@ -10,7 +10,7 @@ const DataScience = () => {
   return (
     <div className='data2' id='science'>
     <div className='data-titulo2'>
-        <hr className='hr_metodologia' />
+        <hr className='hr_science' />
         <h1>DATA SCIENCE <p>& ANALYTICS</p></h1>
     </div>
 
