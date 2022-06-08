@@ -1,14 +1,20 @@
+#clientes.clientes{
+    box-shadow: -120px 120px 20px 0px #f6f6f6;
+    margin-bottom: 0px;
 
+}
 .clientes{
+    margin-left: 120px;
+    margin-right: 120px;
     display: flex;
     flex-direction: column;
     background-color: #ffff;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 .clientes-titulo{
     color:#f4511e;
-    margin-left: 11%; 
+    margin-left: 4%; 
     margin-top: 100px;
 }
 .clientes-titulo > h1{
@@ -82,7 +88,8 @@
 
 @media all and (min-width: 768px) and (max-width: 1024px) { 
     .clientes{
-        
+        margin-left: 0px;
+        margin-right: 0px;
         display: flex;
         flex-direction: column;
         background-color: #ffff;
@@ -166,6 +173,8 @@
 
     @media all and (min-width: 480px) and (max-width: 768px) { 
     .clientes{
+        margin-left: 0px;
+        margin-right: 0px;
     display: flex;
     flex-direction: column;
     background-color: #ffff;
@@ -234,6 +243,8 @@
 @media all and (max-width: 480px) { 
     
 .clientes{
+    margin-left: 0px;
+    margin-right: 0px;
     display: flex;
     flex-direction: column;
     background-color: #ffff;

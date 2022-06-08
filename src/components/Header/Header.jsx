@@ -310,7 +310,7 @@ box-shadow: 0px 1px 10px black;
 margin-top: -80px;
   width: 100%;
   height: 100px;
-  background-color: #fff; 
+  background-color: #f6f6f6; 
   position:fixed;
   z-index: 1000;
 `;
@@ -439,7 +439,7 @@ export const MenuItemLink = styled.a`
   @media screen and (max-width: 500px) {
     div {
       width: 60%;
-      justify-content: left;
+      justify-content: center;
       svg {
         display: flex;
       }
@@ -448,7 +448,7 @@ export const MenuItemLink = styled.a`
   @media screen and (max-width: 260px) {
     div {
       width: 100%;
-      justify-content: left;
+      justify-content: center;
       svg {
         display: flex;
       }

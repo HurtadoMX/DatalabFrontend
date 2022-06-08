@@ -3,6 +3,10 @@
     height:100%;
     display: flex;
     flex-direction: column;
+    margin-left: 120px;
+    margin-right: 120px;
+    box-shadow: -120px 120px 20px 0px #f6f6f6;
+    margin-bottom: 0px;
 }
 
 .dataIcons-container-escritorio .dataIcons-group1{
@@ -75,8 +79,10 @@
 
 
 
-@media all and (min-width: 768px) and (max-width: 1024px) { 
+@media all and (min-width: 769px) and (max-width: 1024px) { 
     .dataIcons-container-escritorio{
+        margin-left: 0px;
+    margin-right: 0px;
         background: #ffff;
         height: 115vh;
         display: flex;
@@ -122,8 +128,10 @@
 
 
 
-@media all and (min-width: 480px) and (max-width: 768px) {
+@media all and (min-width: 481px) and (max-width: 768px) {
     .dataIcons-container-mobile{
+        margin-left: 0px;
+    margin-right: 0px;
         width: 100%;
         background: #ffff;
         height:100%;
@@ -136,6 +144,7 @@
     }
     
     .dataIcons-container-mobile .dataIcons-group1{
+       margin-bottom: 50%;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 230px;
@@ -244,6 +253,8 @@
 
 @media all and (max-width: 480px) { 
     .dataIcons-container-mobile{
+        margin-left: 0px;
+    margin-right: 0px;
         width: 100%;
         background: #ffff;
         height:100%;
@@ -256,7 +267,8 @@
     }
     
     .dataIcons-container-mobile .dataIcons-group1{
-        margin-bottom: 100%;
+    margin-top: 100px;
+    margin-bottom: 100%;
         display: flex;
  flex-direction: column;
         margin-left: 50%;

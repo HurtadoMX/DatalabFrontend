@@ -1,4 +1,8 @@
 .dataIcons-container{
+    box-shadow: -120px 120px 20px 0px #f6f6f6;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    margin-right: 120px;
     background: #ffff;
     height: 100%;
     display: flex;
@@ -91,6 +95,8 @@
 
 @media all and (min-width: 768px) and (max-width: 1024px) { 
     .dataIcons-container{
+        margin-left: 0px;
+        margin-right: 0px;
     background: #ffff;
     height: 100%;
     display: flex;
@@ -177,6 +183,8 @@
 
 @media all and (min-width: 481px) and (max-width: 912px) { 
     .dataIcons-container2{
+        margin-left: 0px;
+        margin-right: 0px;
         width: 100%;
         background: #ffff;
         height: 110%;
@@ -284,6 +292,8 @@
 @media all and (max-width: 682px) { 
     .dataIcons-container2 .dataIcons-group1{
         margin-bottom: 200%;
+        margin-left: 0px;
+        margin-right: 0px;
        
     }
     .derecha-data{
@@ -298,6 +308,8 @@
 @media all and (max-width: 587px) { 
     .dataIcons-container2 .dataIcons-group1{
         margin-bottom: 240%;
+        margin-left: 0px;
+        margin-right: 0px;
        
     }
     .derecha-data{
@@ -328,6 +340,8 @@
 
 @media all and (max-width: 480px) { 
     .dataIcons-container2{
+        margin-left: 0px;
+        margin-right: 0px;
         background: #ffff;
         height: 110%;
         display: flex;
@@ -339,12 +353,12 @@
     }
     
     .dataIcons-container2 .dataIcons-group1{
-        margin-bottom: 180%;
-        margin-top: 5%;
+    margin-top: 100px;
+    margin-bottom: 180%;
     margin-left: 45%;
     display: grid;
     grid-template-columns: 40% ;
-    grid-gap: 65%;
+    grid-gap: 80%;
     }
 
     .icono-responsive{
@@ -426,6 +440,7 @@
 @media all and (max-width: 452px) { 
     .dataIcons-container2 .dataIcons-group1{
         margin-bottom: 215%;
+        margin-right: 0px;
        
     }
 }
