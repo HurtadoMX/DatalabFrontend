@@ -13,8 +13,8 @@ import lateral from "../../assets/png/LATERAL-DERECHA.png"
 const Clientes = () => {
   return (
     <>
-    <img className="derecha-clientes" src={lateral} alt="" />
-      <img className="derecha-clientes2" src={lateral} alt="" />
+    {/* <img className="derecha-clientes" src={lateral} alt="" />
+      <img className="derecha-clientes2" src={lateral} alt="" /> */}
     <div className="clientes" id="clientes">
       <div className="clientes-titulo">
         <hr className="hr_metodologia" />

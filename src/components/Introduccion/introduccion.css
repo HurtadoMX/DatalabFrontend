@@ -1,8 +1,15 @@
+#inicio.introduccion{
+    box-shadow: -120px 120px 20px 100000px #f6f6f6;
+    margin-bottom: 0px;
 
+
+
+}
 
 .introduccion{
     margin-top: 120px;
-    margin-bottom: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .izquierda{
     position: absolute;
@@ -24,7 +31,7 @@ height: 220.4vh;
     font-family: Avenir Next Regular;
 }
 .introduccion-container{
-    margin-left: 150px;
+    margin-left: 10px;
     margin-right: 100px;
 }
 
@@ -124,7 +131,7 @@ height: 220.4vh;
 
 
 .button {
-    display: inline-block;
+    display: block;
     border-radius: 4px;
     background-color: #f4511e;
     border: none;
@@ -235,7 +242,7 @@ height: 220.4vh;
  .introduccion-primer-item >p{
      margin-top: 16px;
     font-family: Avenir Next Medium;
-
+margin-bottom: 100px;
    color: #bebebe;
  }
  .introduccion-primer-item >h3{
@@ -303,9 +310,13 @@ margin-top: 100px;
 /* AQUI VA LA MEDIA QUERIA PARA TABLETA */
 
 @media all and (min-width: 769px) and (max-width: 1024px) { 
+
+   
     .introduccion{
         margin-top: 120px;
         margin-bottom: 150px;
+        margin-left: 0px;
+    margin-right: 0px;
     }
     
     .introduccion-container{
@@ -586,6 +597,8 @@ margin-top: 100px;
     .introduccion{
         
     width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .introduccion-container{
     margin-left: -5%;
@@ -772,6 +785,8 @@ margin-bottom: 25px;
 @media all and (min-width: 481px) and (max-width: 600px) { 
     .introduccion{
         width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .introduccion-container{
         margin-left: 0px;
@@ -986,7 +1001,8 @@ margin-bottom: 25px;
 
 @media all and (max-width: 480px) { 
     .introduccion{
-        
+        margin-left: 0px;
+        margin-right: 0px;
         width: 100%;
     }
     .introduccion-container{

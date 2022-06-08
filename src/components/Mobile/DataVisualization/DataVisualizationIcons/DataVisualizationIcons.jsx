@@ -7,8 +7,8 @@ import lateral from "../../../../assets/png/LATERAL-DERECHA.png"
 const DataVisualizationIcons = () => {
   return (
     <>
-          <img className="derecha-visual" src={lateral} alt="" />
-      <img className="derecha-visual2" src={lateral} alt="" />
+          {/* <img className="derecha-visual" src={lateral} alt="" />
+      <img className="derecha-visual2" src={lateral} alt="" /> */}
     <div className="dataIcons">
       <div className="dataIcons-container-visual">
         <div className="dataIcons-group1">

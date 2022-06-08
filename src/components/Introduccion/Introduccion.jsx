@@ -13,8 +13,8 @@ import lateralDerecha from "../../assets/png/LATERAL-DERECHA.png"
 const Introduccion = () => {
   return (
     <>
-      <img className="izquierda" src={lateral} alt="" />
-      <img className="derecha" src={lateralDerecha} alt="" />
+      {/* <img className="izquierda" src={lateral} alt="" />
+      <img className="derecha" src={lateralDerecha} alt="" /> */}
     <div className="introduccion" id="inicio">
       <div className="introduccion-container">
         {/* <div className="introduccion-left"><h1>WE ARE DATALAB</h1></div> */}
