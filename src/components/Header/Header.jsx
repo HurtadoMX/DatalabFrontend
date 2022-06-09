@@ -20,24 +20,34 @@ const Header = () => {
 
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
+<>
+
+<Container2>
+  <Wrapper>
+  <IconContext.Provider value={{ style: { fontSize: "3em", marginLeft: "30px" } }}>
 
 
-
-
-
-
-
-    <Container>
-    <Wrapper>
-      <IconContext.Provider value={{ style: { fontSize: "2em" } }}>
-      <LogoContainer>
-          {/* <IMG src={icon} alt="" /> */}
-        </LogoContainer>
 
         <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
           {showMobileMenu ? <FaTimes /> : <FaBars />}
         </MobileIcon>
+  </IconContext.Provider>
+  </Wrapper>
+</Container2>
 
+
+
+
+      {/* <IconContext.Provider value={{ style: { fontSize: "2em" } }}>
+      <LogoContainer>
+        </LogoContainer>
+
+        <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
+          {showMobileMenu ? <FaTimes /> : <FaBars />}
+        </MobileIcon> */}
+
+    <Container>
+    <Wrapper>
         <Menu open={showMobileMenu}>
         <MenuItem>
         <Link
@@ -65,7 +75,7 @@ const Header = () => {
               smooth={true}
               offset={-70}
               duration={500}
-            >
+              >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
 
@@ -77,12 +87,12 @@ const Header = () => {
           <MenuItem>
            <Link
            onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="metodologia"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+           to="metodologia"
+           spy={true}
+           smooth={true}
+           offset={-70}
+           duration={500}
+           >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
               Metodologia
@@ -93,12 +103,12 @@ const Header = () => {
           <MenuItem>
                 <Link
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="servicios"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+                to="servicios"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
               Servicios
@@ -109,12 +119,12 @@ const Header = () => {
           <MenuItem>
                 <Link
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="clientes"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+                to="clientes"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
               Clientes
@@ -125,12 +135,12 @@ const Header = () => {
           <MenuItem>
                 <Link
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="data"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+                to="data"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
               Data Management
@@ -141,12 +151,12 @@ const Header = () => {
           <MenuItem>
                 <Link
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="science"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+                to="science"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
               Data Science
@@ -157,12 +167,12 @@ const Header = () => {
           <MenuItem>
                 <Link
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="visual"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+                to="visual"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
               Data Visualization
@@ -173,12 +183,12 @@ const Header = () => {
           <MenuItem>
                 <Link
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="contactos"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+                to="contactos"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
               Contacto
@@ -187,13 +197,14 @@ const Header = () => {
             </Link>
           </MenuItem>
         </Menu>
-      </IconContext.Provider>
-    </Wrapper>
+  </Wrapper> 
   </Container>
+      {/* </IconContext.Provider> */}
 
 
 
 
+              </>
 
 
 
@@ -325,19 +336,56 @@ margin-left: 0%;
 
 export const Container = styled.div`
 font-family: Avenir Next Medium;
-box-shadow: 0px 1px 10px black;
+/* box-shadow: 0px 1px 10px black; */
 margin-top: -80px;
-  width: 100%;
+  width: 90%;
+  height: 100px;
+  background-color: transparent;
+  z-index: 1;
+  position:fixed;
+`;
+export const Container2 = styled.div`
+font-family: Avenir Next Medium;
+/* box-shadow: 0px 1px 10px black; */
+margin-left: 90%;
+margin-top: -80px;
+  width: 0%;
   height: 100px;
   background-color: #f6f6f6;
   position:fixed;
   z-index: 1000;
-`;
+  /* @media screen and (max-width: 880px) {
+    margin-left: 90%;
+
+  } */
+  /* @media screen and (max-width: 880px) {
+    margin-left: 90%;
+
+  } */
+  
+
+  @media screen and (max-width: 880px) {
+    margin-left: 85%;
+
+  }
+  /* @media screen and (max-width: 880px) {
+    margin-left: 90%;
+
+  } */
+  @media screen and (max-width: 500px) {
+    margin-left: 75%;
+  }
+  @media screen and (max-width: 260px) {
+    margin-left: 70%;
+  }
+`
+
+
+;
 
 export const Wrapper = styled.div`
 font-family: Avenir Next Medium;
   width: 100%;
-  max-width: 1300px;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -347,10 +395,9 @@ font-family: Avenir Next Medium;
 
 export const LogoContainer = styled.div`
 font-family: Avenir Next Medium;
-  margin-left: 0.5rem;
+  margin-left: 10px;
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
   font-family: sans-serif;
   p {
     &:nth-child(2) {
@@ -384,7 +431,7 @@ font-family: Avenir Next Medium;
     
     /* box-shadow: rgba(100,100,111, 0.2) 0px 0px 9px 1280px; */
 
-    width: 30%;
+    width: 40%;
     height: 100vh;
     text-align: center;
 
@@ -603,8 +650,36 @@ font-family: Avenir Next Medium;
     align-items: center;
     cursor: pointer;
     svg {
-      fill: #707070;
-      margin-right: 0.5rem;
+      fill: #f4511e;
+      margin-right: 50px;
+    }
+  }
+  @media screen and (max-width: 880px) {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    svg {
+      fill: #f4511e;
+      margin-right: 50px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    svg {
+      fill: #f4511e;
+      margin-right: 50px;
+    }
+  }
+  @media screen and (max-width: 260px) {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    svg {
+      fill: #f4511e;
+      margin-right: 50px;
     }
   }
 `;
