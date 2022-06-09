@@ -14,7 +14,7 @@ import {
   FaGlasses,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
-import icon from "../../assets/svg/DataLab_color.svg"
+import icon from "../../assets/svg/DataLab_calado.svg"
 
 const Header = () => {
 
@@ -30,8 +30,8 @@ const Header = () => {
     <Container>
     <Wrapper>
       <IconContext.Provider value={{ style: { fontSize: "2em" } }}>
-        <LogoContainer>
-          <IMG src={icon} alt="" />
+      <LogoContainer>
+          {/* <IMG src={icon} alt="" /> */}
         </LogoContainer>
 
         <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -39,6 +39,24 @@ const Header = () => {
         </MobileIcon>
 
         <Menu open={showMobileMenu}>
+        <MenuItem>
+        <Link
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
+              to="inicio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+
+        <MenuItemLink>
+        <div>
+          
+          <IMG src={icon} alt="" />
+        </div>
+        </MenuItemLink>
+            </Link>
+        </MenuItem>
           <MenuItem>
         <Link
               onClick={() => setShowMobileMenu(!showMobileMenu)}
@@ -50,7 +68,7 @@ const Header = () => {
             >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
-                
+
               Inicio
               </div>
             </MenuItemLink>
@@ -300,24 +318,24 @@ const Header = () => {
 
 export const IMG = styled.img`
 
-margin-left: 40%;
+margin-left: 0%;
   width: 200px;
   height: 50px;
 `
 
 export const Container = styled.div`
-font-family: Avenir Next Bold;
+font-family: Avenir Next Medium;
 box-shadow: 0px 1px 10px black;
 margin-top: -80px;
   width: 100%;
   height: 100px;
-  background-color: #f6f6f6; 
+  background-color: #f6f6f6;
   position:fixed;
   z-index: 1000;
 `;
 
 export const Wrapper = styled.div`
-font-family: Avenir Next Bold;
+font-family: Avenir Next Medium;
   width: 100%;
   max-width: 1300px;
   height: 100%;
@@ -328,7 +346,7 @@ font-family: Avenir Next Bold;
 `;
 
 export const LogoContainer = styled.div`
-font-family: Avenir Next Bold;
+font-family: Avenir Next Medium;
   margin-left: 0.5rem;
   display: flex;
   align-items: center;
@@ -341,28 +359,81 @@ font-family: Avenir Next Bold;
     &:nth-child(3) {
       font-size: 1.5rem;
       font-weight: 500;
-      color: #e07924;
+      color: #E8E8E8;
     }
   }
   svg {
-    fill: #e07924;
+    fill: #E8E8E8;
     margin-right: 0.5rem;
   }
 `;
 
 export const Menu = styled.ul`
-font-family: Avenir Next Bold;
+font-family: Avenir Next Medium;
   height: 100%;
   display: flex;
   justify-content: space-between;
   list-style: none;
-  @media screen and (max-width: 1170px) {
-    background-color: #f4511e;
+  @media screen and (max-width: 2560px) {
+    font-family: Avenir Next Medium;
+
+    background-color: #040415;
     position: absolute;
-    top: 100px;
+    top: 0px;
     left: ${({ open }) => (open ? "0" : "-100%")}; //Import
-    width: 100%;
-    height: 90vh;
+    
+    /* box-shadow: rgba(100,100,111, 0.2) 0px 0px 9px 1280px; */
+
+    width: 30%;
+    height: 100vh;
+    text-align: center;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s all ease;
+   
+  }
+  @media screen and (max-width: 880px) {
+    font-family: Avenir Next Medium;
+    background-color: #040415;
+    position: absolute;
+    top: 0px;
+    left: ${({ open }) => (open ? "0" : "-100%")};
+    width: 70%;
+    height: 100vh;
+    text-align: center;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s all ease;
+  }
+  @media screen and (max-width: 500px) {
+    font-family: Avenir Next Medium;
+    background-color: #040415;
+    position: absolute;
+    top: 0px;
+    left: ${({ open }) => (open ? "0" : "-100%")}; //Import
+    width: 75%;
+    height: 100vh;
+    text-align: center;
+    /* box-shadow: rgba(100,100,111, 0.2) 0px 0px 9px 105px; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s all ease;
+  }
+  @media screen and (max-width: 260px) {
+    font-family: Avenir Next Medium;
+    background-color: #040415;
+    position: absolute;
+    top: 0px;
+    left: ${({ open }) => (open ? "0" : "-100%")}; //Import
+    width: 75%;
+    height: 100vh;
+    text-align: center;
+
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -371,36 +442,79 @@ font-family: Avenir Next Bold;
 `;
 
 export const MenuItem = styled.li`
-font-family: Avenir Next Bold;
+text-align: left;
+font-family: Avenir Next Medium;
   height: 100%;
-  @media screen and (max-width: 1170px) {
+  @media screen and (max-width: 2560px) {
+    font-family: Avenir Next Bold;
+    height: 100%;
+    /* max-width: 500%; */
+    margin-top: 5%;
     width: 100%;
-    height: 70px;
+    margin-left: 20%;
+    height: 7%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+  }
+  @media screen and (max-width: 880px) {
+    font-family: Avenir Next Medium;
+    height: 100%;
+    /* max-width: 500%; */
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 20%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  @media screen and (max-width: 500px) {
+    font-family: Avenir Next Medium;
+    height: 100%;
+    /* max-width: 500%; */
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 20%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  @media screen and (max-width: 260px) {
+    font-family: Avenir Next Medium;
+    height: 100%;
+    /* max-width: 500%; */
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 20%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
   }
 `;
 
 export const MenuItemLink = styled.a`
-font-family: Avenir Next Bold;
+font-family: Avenir Next Medium;
   margin-right: 0%;
-
+  width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 30%;
   padding: .1rem .6rem;
-  color: #000;
+  color: #fff;
   font-family: sans-serif;
   font-size: 1rem;
   cursor: pointer;
   transition: 0.5s all ease;
   &:hover {
-    color: #fff;
-    background-color: #f4511e;
+    padding: 10px;
+    color: #f4511e;
     transition: 0.5s all ease;
     div {
+
       svg {
         fill: #23394d;
       }
@@ -414,17 +528,19 @@ font-family: Avenir Next Bold;
     align-items: center;
     svg {
       display: none;
-      fill: #e0792a;
+      fill: #E8E8E8;
       margin-right: 0.5rem;
     }
   }
-  @media screen and (max-width: 1170px) {
-    margin-left: -80%;
-    width: 250%;
-    font-size: 30px;
-    color: #000;
+  @media screen and (max-width: 2560px) {
+    font-family: Avenir Next Medium;
+    text-align: left;
+    margin-left: 0px;
+    width: 70%;
+    font-size: 150%;
+    color: #fff;
     div {
-      width: 30%;
+      width: 100%;
       justify-content: left;
       svg {
         display: flex;
@@ -432,8 +548,14 @@ font-family: Avenir Next Bold;
     }
   }
   @media screen and (max-width: 880px) {
+    font-family: Avenir Next Medium;
+    text-align: left;
+    margin-left: 0px;
+    width: 70%;
+    font-size: 200%;
+    color: #fff;
     div {
-      width: 40%;
+      width: 100%;
       justify-content: left;
       svg {
         display: flex;
@@ -441,18 +563,31 @@ font-family: Avenir Next Bold;
     }
   }
   @media screen and (max-width: 500px) {
+    font-family: Avenir Next Medium;
+    text-align: left;
+    margin-left: 0px;
+    width: 70%;
+    font-size: 150%;
+    color: #fff;
     div {
-      width: 60%;
-      justify-content: center;
+      width: 100%;
+      justify-content: left;
       svg {
         display: flex;
       }
     }
   }
   @media screen and (max-width: 260px) {
+   
+    font-family: Avenir Next Medium;
+     text-align: left;
+    margin-left: 0px;
+    width: 70%;
+    font-size: 140%;
+    color: #fff;
     div {
       width: 100%;
-      justify-content: center;
+      justify-content: left;
       svg {
         display: flex;
       }
@@ -461,14 +596,14 @@ font-family: Avenir Next Bold;
 `;
 
 export const MobileIcon = styled.div`
-font-family: Avenir Next Bold;
+font-family: Avenir Next Medium;
   display: none;
-  @media screen and (max-width: 1170px) {
+  @media screen and (max-width: 2560px) {
     display: flex;
     align-items: center;
     cursor: pointer;
     svg {
-      fill: #e07924;
+      fill: #707070;
       margin-right: 0.5rem;
     }
   }
