@@ -400,7 +400,7 @@ font-family: Avenir Next Medium;
     position: absolute;
     top: 0px;
     left: ${({ open }) => (open ? "0" : "-100%")};
-    width: 70%;
+    width: 75%;
     height: 100vh;
     text-align: center;
 
@@ -533,7 +533,7 @@ font-family: Avenir Next Medium;
     }
   }
   @media screen and (max-width: 2560px) {
-    font-family: Avenir Next Medium;
+    font-family: Avenir Next DemiBold;
     text-align: left;
     margin-left: 0px;
     width: 70%;
@@ -548,7 +548,7 @@ font-family: Avenir Next Medium;
     }
   }
   @media screen and (max-width: 880px) {
-    font-family: Avenir Next Medium;
+    font-family: Avenir Next DemiBold;
     text-align: left;
     margin-left: 0px;
     width: 70%;
@@ -563,7 +563,7 @@ font-family: Avenir Next Medium;
     }
   }
   @media screen and (max-width: 500px) {
-    font-family: Avenir Next Medium;
+    font-family: Avenir Next DemiBold;
     text-align: left;
     margin-left: 0px;
     width: 70%;
@@ -579,7 +579,7 @@ font-family: Avenir Next Medium;
   }
   @media screen and (max-width: 260px) {
    
-    font-family: Avenir Next Medium;
+    font-family: Avenir Next DemiBold;
      text-align: left;
     margin-left: 0px;
     width: 70%;
