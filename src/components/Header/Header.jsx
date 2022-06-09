@@ -538,7 +538,7 @@ font-family: Avenir Next Medium;
     margin-left: 0px;
     width: 70%;
     font-size: 150%;
-    color: #fff;
+    color: #f4511e;
     div {
       width: 100%;
       justify-content: left;
@@ -553,7 +553,7 @@ font-family: Avenir Next Medium;
     margin-left: 0px;
     width: 70%;
     font-size: 200%;
-    color: #fff;
+    color: #f4511e;
     div {
       width: 100%;
       justify-content: left;
@@ -568,7 +568,7 @@ font-family: Avenir Next Medium;
     margin-left: 0px;
     width: 70%;
     font-size: 150%;
-    color: #fff;
+    color: #f4511e;
     div {
       width: 100%;
       justify-content: left;
@@ -584,7 +584,7 @@ font-family: Avenir Next Medium;
     margin-left: 0px;
     width: 70%;
     font-size: 140%;
-    color: #fff;
+    color: #f4511e;
     div {
       width: 100%;
       justify-content: left;
