@@ -6,6 +6,7 @@ import Contacto from "../../components/Contacto/Contacto";
 import DataIcons from "../../components/DataManagement/DataIcons/DataIcons";
 import DataManagement from "../../components/DataManagement/DataManagement";
 import FooterBlack from "../../components/Footer/FooterBlack";
+import FooterLight from '../../components/Footer/FooterLight';
 import Header from "../../components/Header/Header";
 import Introduccion from "../../components/Introduccion/Introduccion";
 import Metodologia from "../../components/Metodologia/Metodologia";
@@ -47,8 +48,9 @@ const ScreenInicio = () => {
         <Header />
         <Introduccion />
          <Metodologia />
-         <Servicios />
-       <Clientes />
+         <Clientes />
+         {/* <Servicios /> */}
+       {/* 
         <DataManagement />
        <DataIcons />
   
@@ -57,8 +59,9 @@ const ScreenInicio = () => {
        <DataVisualization />
          <DataVisualizationIcons />
   
-        <Contacto />
-       <FooterBlack /> 
+        <Contacto /> */}
+        <FooterLight/>
+       {/* <FooterBlack />  */}
        <Button>
        <FaArrowCircleUp onClick={scrollToTop} 
        style={{display: visible ? 'inline' : 'none'}} />

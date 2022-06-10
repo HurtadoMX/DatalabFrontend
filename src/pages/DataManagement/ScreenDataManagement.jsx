@@ -46,18 +46,18 @@ const ScreenDataManagement = () => {
   
     <Header />
     {/* <Introduccion />
-     <Metodologia />
+     
      <Servicios />
    <Clientes /> */}
     <DataManagement />
    <DataIcons />
-
-    <DataScience />
+   <Metodologia />
+    {/* <DataScience />
      <DataScienceIcons />
    <DataVisualization />
      <DataVisualizationIcons />
 
-    <Contacto />
+    <Contacto /> */}
    <FooterBlack /> 
    <Button>
    <FaArrowCircleUp onClick={scrollToTop} 

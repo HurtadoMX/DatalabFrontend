@@ -147,7 +147,7 @@ height: 220.4vh;
     color: #FFFFFF;
     text-align: center;
     font-size: 18px;
-    padding: 5px;
+    padding: .8em;
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
@@ -156,6 +156,8 @@ height: 220.4vh;
 }
 
 .button>span {
+    font-weight: 500;
+    font-family: "IBM Plex Sans", sans-serif;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -396,6 +398,7 @@ margin-top: 100px;
         margin-left: 200%;
     }
     .copia-introduccion-primera-parte>button>span {
+        font-family: "IBM Plex Sans", sans-serif;
         cursor: pointer;
         display: inline-block;
         position: relative;
@@ -428,7 +431,7 @@ margin-top: 100px;
         color: #FFFFFF;
         text-align: center;
         font-size: 18px;
-        padding: 5px;
+        padding: .8em;
         width: 200px;
         transition: all 0.5s;
         cursor: pointer;
@@ -668,13 +671,14 @@ border: none;
 color: #FFFFFF;
 text-align: center;
 font-size: 18px;
-padding: 15px;
+padding: .8em;
 width: 300px;
 transition: all 0.5s;
 cursor: pointer;
 margin: 5px;
 }
 ._button>span {
+    font-family: "IBM Plex Sans", sans-serif;
 cursor: pointer;
 display: inline-block;
 position: relative;
@@ -860,13 +864,14 @@ margin-bottom: 25px;
     color: #FFFFFF;
     text-align: center;
     font-size: 18px;
-    padding: 15px;
+    padding: .8em;
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
 }
 ._button>span {
+    font-family: "IBM Plex Sans", sans-serif;
     cursor: pointer;
     display: inline-block;
     position: relative;

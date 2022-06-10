@@ -1,11 +1,12 @@
 import React from "react";
 import "./servicios.css";
-import textura from "../../assets/png/Textura2.png";
+// import textura from "../../assets/png/Textura2.png";
 import Data_Management from "../../assets/svg/Data Management.svg";
 import Data_SCIENCE from "../../assets/svg/Data SCIENCE.svg";
 import Data_Visualization from "../../assets/svg/Data Visualization.svg";
 import { BsArrowRight } from "react-icons/bs";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 <li className="header-li">
   <Link to="inicio" spy={true} smooth={true} offset={-70} duration={500}>
@@ -21,7 +22,7 @@ const Servicios = () => {
         <h1>SERVICIOS</h1>
       </div>
       <div className="servicios-group">
-      <img className="servicios-image-puntos" src={textura} alt="" />
+      {/* <img className="servicios-image-puntos" src={textura} alt="" /> */}
         <h2>Evaluamos, asesoramos y optimizamos en cada fase</h2>
         <p>
           <span>En cada etapa de nuestra colaboración,</span>{" "}
@@ -38,11 +39,11 @@ const Servicios = () => {
           </p>
           <div className="servicios-item-a">
             <Link
-              to="data"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              to="/data-management"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
             >
               Leer más <BsArrowRight className="arrow" />
             </Link>
@@ -63,11 +64,11 @@ const Servicios = () => {
             </p>
             <div className="servicios-item-a">
               <Link
-                to="data"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
+                to="/data-management"
+                // spy={true}
+                // smooth={true}
+                // offset={-70}
+                // duration={500}
               >
                 Leer más <BsArrowRight className="arrow" />
               </Link>
@@ -89,11 +90,11 @@ const Servicios = () => {
           </p>
           <div className="servicios-item-a">
             <Link
-              to="science"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              to="/data-science"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
             >
               Leer más <BsArrowRight className="arrow" />
             </Link>
@@ -115,11 +116,11 @@ const Servicios = () => {
             </p>
             <div className="servicios-item-a">
               <Link
-                to="science"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
+                to="/data-science"
+                // spy={true}
+                // smooth={true}
+                // offset={-70}
+                // duration={500}
               >
                 Leer más <BsArrowRight className="arrow" />
               </Link>
@@ -135,11 +136,11 @@ const Servicios = () => {
           </p>
           <div className="servicios-item-a">
             <Link
-              to="visual"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              to="/data-visual"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
             >
               Leer más <BsArrowRight className="arrow" />
             </Link>
@@ -160,11 +161,11 @@ const Servicios = () => {
             </p>
             <div className="servicios-item-a">
               <Link
-                to="visual"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
+                to="/data-visual"
+                // spy={true}
+                // smooth={true}
+                // offset={-70}
+                // duration={500}
               >
                 Leer más <BsArrowRight className="arrow" />
               </Link>

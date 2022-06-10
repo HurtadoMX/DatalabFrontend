@@ -2,8 +2,8 @@ import React,{useState} from "react";
 import "./header.css";
 import datalab from "../../assets/svg/DataLab_color.svg";
 import "animate.css";
-// import { Link } from "react-router-dom";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+// import { Link } from "react-scroll";
 import styled from "styled-components";
 import {
   FaBattleNet,
@@ -52,12 +52,12 @@ const Header = () => {
         <Menu open={showMobileMenu}>
         <MenuItem>
         <Link
-              // to={'/'}
-              to={"inicio"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+              to={'/'}
+              // to={"inicio"}
+              //   spy={true}
+              //   smooth={true}
+              //   offset={1}
+              //   duration={500}
             >
 
         <MenuItemLink>
@@ -70,12 +70,12 @@ const Header = () => {
         </MenuItem>
       <MenuItem>
         <Link
-              // to={'/'}
-              to={"inicio" }
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+              to={'/'}
+              // to={"inicio" }
+              //   spy={true}
+              //   smooth={true}
+              //   offset={1}
+              //   duration={500}
               >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -87,12 +87,12 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
            <Link
-          //  to={'/metodologia'}
-          to={"metodologia"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+           to={'/metodologia'}
+          // to={"metodologia"}
+          //       spy={true}
+          //       smooth={true}
+          //       offset={1}
+          //       duration={500}
            >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -103,12 +103,12 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                // to={'/servicios'}
-                to={"servicios"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+                to={'/servicios'}
+                // to={"servicios"}
+                // spy={true}
+                // smooth={true}
+                // offset={1}
+                // duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -117,14 +117,14 @@ const Header = () => {
             </MenuItemLink>
             </Link>
           </MenuItem>
-          <MenuItem>
+          {/* <MenuItem>
                 <Link
-              //  to={'/clientes'}
-              to={"clientes"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+               to={'/clientes'}
+              // to={"clientes"}
+              //   spy={true}
+              //   smooth={true}
+              //   offset={1}
+              //   duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -132,15 +132,15 @@ const Header = () => {
               </div>
             </MenuItemLink>
             </Link>
-          </MenuItem>
+          </MenuItem> */}
           <MenuItem>
                 <Link
-                // to={'/data-management'}
-                to={"data"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+                to={'/data-management'}
+                // to={"data"}
+                // spy={true}
+                // smooth={true}
+                // offset={1}
+                // duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -151,12 +151,12 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                // to={'/data-science'}
-                to={"science"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+                to={'/data-science'}
+                // to={"science"}
+                // spy={true}
+                // smooth={true}
+                // offset={1}
+                // duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -167,12 +167,12 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                // to={'/data-visual'}
-                to={"visual"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+                to={'/data-visual'}
+                // to={"visual"}
+                // spy={true}
+                // smooth={true}
+                // offset={1}
+                // duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -183,12 +183,12 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                // to={'/contacto'}
-                to={"contactos"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+                to={'/contacto'}
+                // to={"contactos"}
+                // spy={true}
+                // smooth={true}
+                // offset={1}
+                // duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
