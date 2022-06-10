@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import "./header.css";
 import datalab from "../../assets/svg/DataLab_color.svg";
 import "animate.css";
+// import { Link } from "react-router-dom";
 import { Link } from "react-scroll";
 import styled from "styled-components";
 import {
@@ -51,12 +52,12 @@ const Header = () => {
         <Menu open={showMobileMenu}>
         <MenuItem>
         <Link
-              onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="inicio"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              // to={'/'}
+              to={"inicio"}
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
             >
 
         <MenuItemLink>
@@ -67,14 +68,14 @@ const Header = () => {
         </MenuItemLink>
             </Link>
         </MenuItem>
-          <MenuItem>
+      <MenuItem>
         <Link
-              onClick={() => setShowMobileMenu(!showMobileMenu)}
-              to="inicio"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              // to={'/'}
+              to={"inicio" }
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
               >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -86,12 +87,12 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
            <Link
-           onClick={() => setShowMobileMenu(!showMobileMenu)}
-           to="metodologia"
-           spy={true}
-           smooth={true}
-           offset={-70}
-           duration={500}
+          //  to={'/metodologia'}
+          to={"metodologia"}
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
            >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
@@ -102,11 +103,11 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                onClick={() => setShowMobileMenu(!showMobileMenu)}
-                to="servicios"
+                // to={'/servicios'}
+                to={"servicios"}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={1}
                 duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -118,11 +119,11 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                onClick={() => setShowMobileMenu(!showMobileMenu)}
-                to="clientes"
+              //  to={'/clientes'}
+              to={"clientes"}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={1}
                 duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -134,11 +135,11 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                onClick={() => setShowMobileMenu(!showMobileMenu)}
-                to="data"
+                // to={'/data-management'}
+                to={"data"}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={1}
                 duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -150,11 +151,11 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                onClick={() => setShowMobileMenu(!showMobileMenu)}
-                to="science"
+                // to={'/data-science'}
+                to={"science"}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={1}
                 duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -166,11 +167,11 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                onClick={() => setShowMobileMenu(!showMobileMenu)}
-                to="visual"
+                // to={'/data-visual'}
+                to={"visual"}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={1}
                 duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -182,11 +183,11 @@ const Header = () => {
           </MenuItem>
           <MenuItem>
                 <Link
-                onClick={() => setShowMobileMenu(!showMobileMenu)}
-                to="contactos"
+                // to={'/contacto'}
+                to={"contactos"}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={1}
                 duration={500}
                 >
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -195,7 +196,7 @@ const Header = () => {
               </div>
             </MenuItemLink>
             </Link>
-          </MenuItem>
+          </MenuItem> 
         </Menu>
   </Wrapper> 
   </Container>
@@ -339,10 +340,26 @@ font-family: Avenir Next Medium;
 /* box-shadow: 0px 1px 10px black; */
 margin-top: -80px;
   width: 90%;
-  height: 100px;
+  height: 00px;
   background-color: transparent;
   z-index: 1;
   position:fixed;
+
+
+  @media screen and (max-width: 880px) {
+    margin-top: 0px;
+
+  }
+  /* @media screen and (max-width: 880px) {
+    margin-left: 90%;
+
+  } */
+  @media screen and (max-width: 500px) {
+    margin-top: 0px;
+  }
+  @media screen and (max-width: 260px) {
+    margin-top: 0px;
+  }
 `;
 export const Container2 = styled.div`
 font-family: Avenir Next Medium;
@@ -350,10 +367,10 @@ font-family: Avenir Next Medium;
 margin-left: 90%;
 margin-top: -80px;
   width: 0%;
-  height: 100px;
+  height: 250px;
   background-color: #f6f6f6;
   position:fixed;
-  z-index: 1000;
+  z-index: 10000;
   /* @media screen and (max-width: 880px) {
     margin-left: 90%;
 
@@ -426,7 +443,7 @@ font-family: Avenir Next Medium;
 
     background-color: #040415;
     position: absolute;
-    top: 0px;
+    top: 80px;
     left: ${({ open }) => (open ? "0" : "-100%")}; //Import
     
     /* box-shadow: rgba(100,100,111, 0.2) 0px 0px 9px 1280px; */

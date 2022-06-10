@@ -76,12 +76,12 @@ const Introduccion = () => {
                 to="metodologia"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={1}
                 duration={500}
               >
                 <img src={scroll} alt="" />
+              <h3 className="text-scroll">Scroll</h3>
               </Link>
-              <h3>Scroll</h3>
             </div>
           </div>
           <div className="introduccion-tercera-parte">
