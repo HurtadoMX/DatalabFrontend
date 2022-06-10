@@ -45,10 +45,10 @@ const ScreenServicios = () => {
       
   
     <Header />
-    {/* <Introduccion />
-     <Metodologia /> */}
+    {/* <Introduccion /> */}
      <Servicios />
-   <Clientes />
+     <Metodologia />
+   {/* <Clientes />
     <DataManagement />
    <DataIcons />
 
@@ -57,7 +57,7 @@ const ScreenServicios = () => {
    <DataVisualization />
      <DataVisualizationIcons />
 
-    <Contacto />
+    <Contacto /> */}
    <FooterBlack /> 
    <Button>
    <FaArrowCircleUp onClick={scrollToTop} 

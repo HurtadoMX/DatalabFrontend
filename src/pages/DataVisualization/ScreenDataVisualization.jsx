@@ -46,7 +46,7 @@ const ScreenDataVisualization = () => {
   
     <Header />
     {/* <Introduccion />
-     <Metodologia />
+    
      <Servicios />
    <Clientes />
     <DataManagement />
@@ -56,8 +56,8 @@ const ScreenDataVisualization = () => {
      <DataScienceIcons /> */}
    <DataVisualization />
      <DataVisualizationIcons />
-
-    <Contacto />
+     <Metodologia />
+    {/* <Contacto /> */}
    <FooterBlack /> 
    <Button>
    <FaArrowCircleUp onClick={scrollToTop} 

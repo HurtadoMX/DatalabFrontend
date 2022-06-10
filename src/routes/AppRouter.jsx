@@ -21,7 +21,7 @@ const AppRouter = () => {
         <Route path='/' element={<ScreenInicio/>}/>
         <Route path='/metodologia' element={<ScreenMetodologia/>}/>
         <Route path='/servicios' element={<ScreenServicios/>}/>
-        <Route path='/clientes' element={<ScreenClientes/>}/>
+        {/* <Route path='/clientes' element={<ScreenClientes/>}/> */}
         <Route path='/data-management' element={<ScreenDataManagement/>}/>
         <Route path='/data-science' element={<ScreenDataScience/>}/>
         <Route path='/data-visual' element={<ScreenDataVisualization/>}/>
