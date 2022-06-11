@@ -9,6 +9,7 @@ import "animate.css";
 import { Link } from "react-scroll";
 import lateral from "../../assets/png/LATERAL.png"
 import lateralDerecha from "../../assets/png/LATERAL-DERECHA.png"
+import { NavLink } from "react-router-dom";
 
 const Introduccion = () => {
   return (
@@ -27,12 +28,12 @@ const Introduccion = () => {
               alt="ICONO-DATALAB"
               className="animate__animated animate__backInLeft"
             />
-                <Link
-                  to="contactos"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
+                <NavLink
+                  to="/contacto"
+                  // spy={true}
+                  // smooth={true}
+                  // offset={-70}
+                  // duration={500}
                 >
             <button className="button">
               <span>
@@ -40,7 +41,7 @@ const Introduccion = () => {
                   Contacto
               </span>
             </button>
-                </Link>
+                </NavLink>
           </div>
 
           <div className="introduccion-segunda-parte">
@@ -54,12 +55,12 @@ const Introduccion = () => {
                 VALOR.
               </h1>
               <div className="copia-introduccion-primera-parte">
-              <Link
-                      to="contactos"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
+              <NavLink
+                      to="/contacto"
+                      // spy={true}
+                      // smooth={true}
+                      // offset={-70}
+                      // duration={500}
                     >
                        <button className="_button">
                   <span>
@@ -68,7 +69,7 @@ const Introduccion = () => {
                       Contacto
                   </span>
                 </button>
-                    </Link>
+                    </NavLink>
               </div>
             </div>
             <div className="introduccion-scroll animate__animated animate__backInDown">
