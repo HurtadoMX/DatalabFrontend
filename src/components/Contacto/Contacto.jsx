@@ -48,7 +48,7 @@ const Contacto = () => {
           message: ""
         });
 
-        navigate("/");
+        navigate("/contacto");
       } else {
         cambiarEstadoModalError1(!estadoModalError1)
 
