@@ -2,8 +2,8 @@ import React,{useState} from "react";
 import "./header.css";
 import datalab from "../../assets/svg/DataLab_color.svg";
 import "animate.css";
-import { Link } from "react-router-dom";
-// import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import styled from "styled-components";
 import {
   FaBattleNet,
@@ -35,24 +35,14 @@ const Header = () => {
   </IconContext.Provider>
   </Wrapper>
 </Container2>
-
-
-
-
-      {/* <IconContext.Provider value={{ style: { fontSize: "2em" } }}>
-      <LogoContainer>
-        </LogoContainer>
-
-        <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
-          {showMobileMenu ? <FaTimes /> : <FaBars />}
-        </MobileIcon> */}
-
     <Container>
     <Wrapper>
         <Menu open={showMobileMenu}>
         <MenuItem>
-        <Link
-              to={'/'}
+          
+
+        <a
+        href={'/'}
               // to={"inicio"}
               //   spy={true}
               //   smooth={true}
@@ -66,44 +56,50 @@ const Header = () => {
           <IMG src={icon} alt="" />
         </div>
         </MenuItemLink>
-            </Link>
+            </a>
         </MenuItem>
       <MenuItem>
-        <Link
-              to={'/'}
-              // to={"inicio" }
-              //   spy={true}
-              //   smooth={true}
-              //   offset={1}
-              //   duration={500}
-              >
+      <a href='/'>
+
+        {/* <Link
+              
+              to={"inicio" }
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+              > */}
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
 
               Inicio
               </div>
             </MenuItemLink>
-            </Link>
+            {/* </Link> */}
+          </a>
           </MenuItem>
           <MenuItem>
-           <Link
-           to={'/metodologia'}
-          // to={"metodologia"}
-          //       spy={true}
-          //       smooth={true}
-          //       offset={1}
-          //       duration={500}
-           >
+          <a href='/metodologia'>
+
+           {/* <Link
+           
+           to={"metodologia"}
+                 spy={true}
+                 smooth={true}
+                 offset={1}
+                 duration={500}
+           > */}
             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
               <div>
               Metodologia
               </div>
             </MenuItemLink>
-            </Link>
+            {/* </Link> */}
+             </a>
           </MenuItem>
           <MenuItem>
-                <Link
-                to={'/servicios'}
+                <a
+                href={'/servicios'}
                 // to={"servicios"}
                 // spy={true}
                 // smooth={true}
@@ -115,7 +111,7 @@ const Header = () => {
               Servicios
               </div>
             </MenuItemLink>
-            </Link>
+            </a>
           </MenuItem>
           {/* <MenuItem>
                 <Link
@@ -134,8 +130,8 @@ const Header = () => {
             </Link>
           </MenuItem> */}
           <MenuItem>
-                <Link
-                to={'/data-management'}
+                <a
+                href={'/data-management'}
                 // to={"data"}
                 // spy={true}
                 // smooth={true}
@@ -147,11 +143,11 @@ const Header = () => {
               Data Management
               </div>
             </MenuItemLink>
-            </Link>
+            </a>
           </MenuItem>
           <MenuItem>
-                <Link
-                to={'/data-science'}
+                <a
+                href={'/data-science'}
                 // to={"science"}
                 // spy={true}
                 // smooth={true}
@@ -163,11 +159,11 @@ const Header = () => {
               Data Science
               </div>
             </MenuItemLink>
-            </Link>
+            </a>
           </MenuItem>
           <MenuItem>
-                <Link
-                to={'/data-visual'}
+                <a
+                href={'/data-visual'}
                 // to={"visual"}
                 // spy={true}
                 // smooth={true}
@@ -179,11 +175,11 @@ const Header = () => {
               Data Visualization
               </div>
             </MenuItemLink>
-            </Link>
+            </a>
           </MenuItem>
           <MenuItem>
-                <Link
-                to={'/contacto'}
+                <a
+                href={'/contacto'}
                 // to={"contactos"}
                 // spy={true}
                 // smooth={true}
@@ -195,7 +191,7 @@ const Header = () => {
               Contacto
               </div>
             </MenuItemLink>
-            </Link>
+            </a>
           </MenuItem> 
         </Menu>
   </Wrapper> 

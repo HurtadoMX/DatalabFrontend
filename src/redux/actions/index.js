@@ -12,7 +12,7 @@ export function enviarEmail(payload){
         params.append('name', payload.name)
         params.append('email', payload.email)
         params.append('message', payload.message)
-        const json = await axios.post(`http://localhost/correo/contact_me.php`, params)
+        const json = await axios.post(`./php/contact_me.php`, params)
         console.log(json)
         return json
     }

@@ -38,15 +38,15 @@ const Servicios = () => {
             <span>Te ayudamos a integrar,</span> estructurar y limpiar tus datos...
           </p>
           <div className="servicios-item-a">
-            <Link
-              to="/data-management"
+            <a
+              href="/data-management"
               // spy={true}
               // smooth={true}
               // offset={-70}
               // duration={500}
             >
               Leer más <BsArrowRight className="arrow" />
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -63,15 +63,15 @@ const Servicios = () => {
               <span>Te ayudamos a integrar,</span> estructurar y limpiar tus datos...
             </p>
             <div className="servicios-item-a">
-              <Link
-                to="/data-management"
+              <a
+                href="/data-management"
                 // spy={true}
                 // smooth={true}
                 // offset={-70}
                 // duration={500}
               >
                 Leer más <BsArrowRight className="arrow" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -89,15 +89,15 @@ const Servicios = () => {
             <span>Trabajamos en equipo contigo,</span> para entender tus objetivos...
           </p>
           <div className="servicios-item-a">
-            <Link
-              to="/data-science"
+            <a
+              href="/data-science"
               // spy={true}
               // smooth={true}
               // offset={-70}
               // duration={500}
             >
               Leer más <BsArrowRight className="arrow" />
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -115,15 +115,15 @@ const Servicios = () => {
               objetivos...
             </p>
             <div className="servicios-item-a">
-              <Link
-                to="/data-science"
+              <a
+                href="/data-science"
                 // spy={true}
                 // smooth={true}
                 // offset={-70}
                 // duration={500}
               >
                 Leer más <BsArrowRight className="arrow" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -135,15 +135,15 @@ const Servicios = () => {
             <span>Te ayudamos a visualizar tus</span> datos de la mejor forma...
           </p>
           <div className="servicios-item-a">
-            <Link
-              to="/data-visual"
+            <a
+              href="/data-visual"
               // spy={true}
               // smooth={true}
               // offset={-70}
               // duration={500}
             >
               Leer más <BsArrowRight className="arrow" />
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -160,15 +160,15 @@ const Servicios = () => {
               <span>Te ayudamos a visualizar tus</span> datos de la mejor forma...
             </p>
             <div className="servicios-item-a">
-              <Link
-                to="/data-visual"
+              <a
+                href="/data-visual"
                 // spy={true}
                 // smooth={true}
                 // offset={-70}
                 // duration={500}
               >
                 Leer más <BsArrowRight className="arrow" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
