@@ -41,14 +41,19 @@ const ScreenMetodologia = () => {
 
 
   return (
-    <div>
+    <>
   
       
   
     <Header />
-    {/* <Introduccion /> */}
+     {/* <Introduccion /> */}
      <Metodologia />
      <Clientes />
+     <FooterLight/>
+   <Button>
+   <FaArrowCircleUp onClick={scrollToTop} 
+   style={{display: visible ? 'inline' : 'none'}} />
+  </Button> 
      {/* <Servicios /> */}
    {/* 
     <DataManagement />
@@ -61,12 +66,8 @@ const ScreenMetodologia = () => {
 
     <Contacto /> */}
    {/* <FooterBlack />  */}
-   <FooterLight/>
-   <Button>
-   <FaArrowCircleUp onClick={scrollToTop} 
-   style={{display: visible ? 'inline' : 'none'}} />
-  </Button> 
-  </div>
+  
+  </>
   )
 }
 

@@ -39,15 +39,15 @@ const Header = () => {
     <Wrapper>
         <Menu open={showMobileMenu}>
         <MenuItem>
-        <NavLink to={'/'}>
           
 
-        <Link
-              to={"inicio"}
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={500}
+        <a
+        href={'/'}
+              // to={"inicio"}
+              //   spy={true}
+              //   smooth={true}
+              //   offset={1}
+              //   duration={500}
             >
 
         <MenuItemLink>
@@ -56,8 +56,7 @@ const Header = () => {
           <IMG src={icon} alt="" />
         </div>
         </MenuItemLink>
-            </Link>
-      </NavLink>
+            </a>
         </MenuItem>
       <MenuItem>
       <a href='/'>
